@@ -1,0 +1,6 @@
+Skybridge walls
+Inset 96
+Extrude 0
+Move +Z 64
+Inset 32
+Move +Z 32
