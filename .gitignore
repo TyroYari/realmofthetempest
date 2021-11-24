@@ -1,0 +1,50 @@
+# Ignore until assets are cleaned up
+__Notes
+
+# 3D World
+__3D-World/__Reference
+__3D-World/__Unused
+__3D-World/3DS Max
+__3D-World/scripts
+__3D-World/*.ASE
+__3D-World/*/*.ASE
+__3D-World/*/*/*.ASE
+__3D-World/*/*/*/*.ASE
+__3D-World/__3D World.mxp
+
+# Sound files
+__Sound-Files/φ *
+__Sound-Files/*/*/*.wav
+__Sound-Files/*/*/old*
+__Sound-Files/*/*/src*
+
+# Sprites
+__Sprites/Enemies/*old*
+__Sprites/Menu/SCENE_WORLD_MAP/World_Map.psd
+__Sprites/NPCs/__Reference
+__Sprites/NPCs/_old
+__Sprites/Obsolete
+__Sprites/Wiki
+
+# Ignore standard dev kit files
+Binaries
+Engine
+UDKGame
+Development/Flash
+Development/Src/Core
+Development/Src/Engine
+Development/Src/GameFramework
+Development/Src/GFx*
+Development/Src/IpDrv
+Development/Src/MyMod
+Development/Src/Online*
+Development/Src/Substance*
+Development/Src/UDK*
+Development/Src/UnrealEd
+Development/Src/WinDrv
+
+# Ignore links to legacy installers
+*.lnk
+*trash*
+ROTT-Alpha-*
+bfg-1.13.1.jar
