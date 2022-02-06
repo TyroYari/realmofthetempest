@@ -4,8 +4,8 @@
  * Author: Otay
  * Bramble Gate Studios (All rights reserved)
  *
- * Kalev is a former prince, living in Talonovia.  He's commanding and  
- * diplomatic, superficially.
+ * Kalev is a former prince, living in Talonovia.  He's stern and aloof,
+ * but enjoys sharing baked snacks.
  *===========================================================================*/
 
 class ROTT_NPC_Talonovia_Kalev extends ROTT_NPC_Container;
@@ -43,13 +43,13 @@ public function initDialogue() {
   `ENDNODE
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
-    "Formerly a prince of royal blood, but my kingdom is long lost.",
-    "Named by the emperor at birth. . . Address me as Kalev."
+    "I'm formerly a prince of royal blood, but my kingdom is long lost.",
+    "Named by the emperor at birth. . . I'll be addressed as Kalev."
   `ENDNODE
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
     "The gate to Rhunia will lead you to a forsaken citadel, where",
-    "if your courage permits, you may find an obelisk."
+    "if your courage permits, you'll find an obelisk."
   `ENDNODE
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
@@ -93,7 +93,7 @@ public function initDialogue() {
   
   `NEW_NODE(INQUIRY_OBELISK, NUETRAL)
     "It weighs against the breath of nature, the nourishment",
-    "of the living, and the vigor of our minds."
+    "of the living, and the vigor of young minds."
   `ENDNODE
   
   `NEW_NODE(INQUIRY_OBELISK, NUETRAL)
@@ -105,7 +105,7 @@ public function initDialogue() {
   
   `NEW_NODE(INQUIRY_TOMB, NUETRAL)
     "Before the era of descent, an unwavering sense",
-    "of loyalty tied together all of our kingdoms."
+    "of loyalty tied together all the great kingdoms."
   `ENDNODE
   
   `NEW_NODE(INQUIRY_TOMB, NUETRAL)
@@ -114,7 +114,7 @@ public function initDialogue() {
   `ENDNODE
   
   `NEW_NODE(INQUIRY_TOMB, NUETRAL)
-    "Losing Haxlyn hurt the most.",
+    "Losing Haxlyn hurt worst of all. . .",
     ""
   `ENDNODE
   
