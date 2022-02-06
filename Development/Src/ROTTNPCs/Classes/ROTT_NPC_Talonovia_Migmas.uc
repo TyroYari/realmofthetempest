@@ -59,22 +59,22 @@ public function initDialogue() {
       `ENDNODE
     
   `NEW_NODE(INTRODUCTION, NUETRAL)
-    "Call me. . . Migmas, the local alchemist,",
+    "I'm Migmas, the local alchemist,",
     "member of the Talonovian high council."
   `ENDNODE
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
-    "I'm not the type for company, but I handle enchantment",
-    "services for travellers like yourself."
+    "I am not often the type for company, but I'll handle your",
+    "enchantment services for a fair price."
   `ENDNODE
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
-    "Now heed this advice carefully. . .",
+    "Now listen well, and heed this advice carefully. . .",
     ""
   `ENDNODE
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
-    "Through the portal of Rhunia, you'll find an obelisk",
+    "Through the portal of Rhunia, you will find an obelisk",
     "towering above the halls of an abandoned citadel."
   `ENDNODE
   
@@ -85,7 +85,7 @@ public function initDialogue() {
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
     "So go forth to the shrine beneath this monument,",
-    "and let's see if this ancient magick will be restored."
+    "and let's see if you'll restore the power of this ancient magick."
   `ENDNODE
   
   // ----------------------------------------------------------------------- //
@@ -123,7 +123,7 @@ public function initDialogue() {
   `ENDNODE
   
   `NEW_NODE(INQUIRY_OBELISK, NUETRAL)
-    "So go forth, and give it your prayer once again.",
+    "So go forth, and give it a heartfelt prayer once again.",
     ""
   `ENDNODE
   
