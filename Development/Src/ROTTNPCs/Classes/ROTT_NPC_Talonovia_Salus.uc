@@ -37,13 +37,13 @@ public function initDialogue() {
   `ENDNODE
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
-    "I don't mean to disturb you, traveler,",
-    "but I saw you arrive from the portals."
+    "Just another traveller here to unwind, huh?",
+    "Talonovia's harbors are quite the place for that."
   `ENDNODE
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
-    "Why are you here?",
-    ""
+    "How do you fair?",
+    "Why are you here?"
   `ENDNODE
   
     `ADD_OPTIONS(INTRODUCTION, NUETRAL)
@@ -54,28 +54,43 @@ public function initDialogue() {
     `ENDNODE
     
       `ADD_REPLY(INTRODUCTION, NUETRAL, 0)
-        "What great news, your help is welcome here.",
-        ""
+        "What bravery, you know.",
+        "You can't say no to an extra hand."
       `ENDNODE
     
       `ADD_REPLY(INTRODUCTION, NUETRAL, 1)
-        "Combat is common here, you will not be disappointed.",
+        "Ohhh ho ho, now! New combat seeker, ready to enter the fold?",
+        "For the fight against evil . . . ?  Is the lord with you?"
+      `ENDNODE
+    
+      `ADD_REPLY(INTRODUCTION, NUETRAL, 1)
+        "Skies above, I mean I am just askin, you know.",
         ""
       `ENDNODE
     
       `ADD_REPLY(INTRODUCTION, NUETRAL, 2)
-        "Searching for your purpose then, huh?",
+        "Searching for purpose then, is it? Do you really",
+        "want to hear how I've been there, and done that?"
+      `ENDNODE
+    
+      `ADD_REPLY(INTRODUCTION, NUETRAL, 2)
+        "Lord, no.  Godspede.",
         ""
       `ENDNODE
     
       `ADD_REPLY(INTRODUCTION, NUETRAL, 3)
-        "As a cleric, my business is with the well-being of my people.",
-        "Our lives are in danger, including yours. . . bitter outlander."
+        "As a cleric's promise, my business is with the well-being of my people.",
+        "So how about you think for a while, ok bitter outlander?"
+      `ENDNODE
+    
+      `ADD_REPLY(INTRODUCTION, NUETRAL, 3)
+        "You'll think, and you'll think, and you still won't get it.",
+        ""
       `ENDNODE
     
   `NEW_NODE(INTRODUCTION, NUETRAL)
-    "Your time would surely be well spent in Rhunia,",
-    "where one of our portals is tethered to."
+    "Your time would be well spent in Rhunia,",
+    "where one of the portals is tethered to."
   `ENDNODE
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
@@ -177,13 +192,13 @@ public function initDialogue() {
   `ENDNODE
   
   `NEW_NODE(INQUIRY_GOLEM, NUETRAL)
-    "My faith belongs to my scriptures,",
+    "May faith belong to scriptures,",
     "not to wishful rumors of ancient mysteries."
   `ENDNODE
   
   `NEW_NODE(INQUIRY_GOLEM, NUETRAL)
-    "I believe they were frozen to protect us,",
-    "and it should remain that way."
+    "Faith may not tell us why they were frozen, but perhaps to protect us,",
+    "and maybe it should remain that way."
   `ENDNODE
   
   // ----------------------------------------------------------------------- //
