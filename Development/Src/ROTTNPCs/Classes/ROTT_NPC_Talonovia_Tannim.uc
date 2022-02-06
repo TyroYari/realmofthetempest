@@ -46,6 +46,11 @@ public function initDialogue() {
   setColor(DEFAULT_MEDIUM_GOLD);
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
+    "So, are you the new face in town?",
+    ""
+  `ENDNODE
+  
+  `NEW_NODE(INTRODUCTION, NUETRAL)
     "Keeper of beasts and demons,",
     "Tannim, at your service."
   `ENDNODE
@@ -69,7 +74,7 @@ public function initDialogue() {
   
   `NEW_NODE(GREETING, NUETRAL)
     "You are safe here, friend.",
-    ""
+    "You really are."
   `ENDNODE
   
     `ADD_OPTIONS(GREETING, NUETRAL)
