@@ -4,9 +4,21 @@
  * Author: Otay
  * Bramble Gate Studios (All rights reserved)
  *
- * Tannim is a dragon tamer in Talonovia.  He's arrogant and values power.
- * The player is supposed to be able to battle his beasts and dragons,
- * (eventually.)
+ * Tannim is a dragon tamer in Talonovia.  She is discrete, vigilant, and
+ * intensily focused.  Her eyes are fiercly ambivalent, like a weathered
+ * veteran.  
+ *
+ * Able to summon massive chains connecting arbitrary points in the
+ * sky, dragon tamers sprint fast as light along the metal links, wrapping
+ * and climbing across massive demonics opponents, trapping their shrunken
+ * spirits down in small, hand sized cages.  To become a dragon tamer one must
+ * train under and eventually kill an existing dragon tamer.  Like Auron/Itachi,
+ * Dragon Tamers wear one arm in their sleeve out of respect to former masters
+ * death.
+ *
+ * The player may pay dragon tamers to summon high level boss fights, saving
+ * the hassle of seeking out such bosses.  Item rewards are increased.
+ * Currency rewards are removed.
  *===========================================================================*/
 
 class ROTT_NPC_Talonovia_Tannim extends ROTT_NPC_Container;
