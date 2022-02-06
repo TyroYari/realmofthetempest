@@ -34,8 +34,8 @@ public function initDialogue() {
   setColor(DEFAULT_MEDIUM_GOLD);
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
-    "Spirits whispered of your arrival to me.",
-    ""
+    "I'm aware, you know. . .",
+    "Spirits whispered of your arrival to me."
   `ENDNODE
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
@@ -44,12 +44,12 @@ public function initDialogue() {
   `ENDNODE
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
-    "For I am the master practitioner of chemical witchcraft,",
+    "For it is I, the master practitioner of chemical witchcraft,",
     "channeler of the high queen of the underworld. . ."
   `ENDNODE
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
-    "I am Hekatos. I am Hekatos.  I am Hekatos.",
+    "I am Hekatos, Hekatos. . .  Hekatos!",
     ""
   `ENDNODE
   
@@ -92,7 +92,7 @@ public function initDialogue() {
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
     "They tell me your path will wind through the storms",
-    "until you reach a citadel, and a tower."
+    "until you've reached a citadel, and a tower."
   `ENDNODE
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
@@ -103,8 +103,8 @@ public function initDialogue() {
   // ----------------------------------------------------------------------- //
   
   `NEW_NODE(GREETING, NUETRAL)
-    "I was told you would come.",
-    ""
+    "I'm everywhere, anywhere, and nowhere, sweetheart.",
+    "How can I help?"
   `ENDNODE
   
     `ADD_OPTIONS(GREETING, NUETRAL)
@@ -147,7 +147,7 @@ public function initDialogue() {
   `ENDNODE
   
   `NEW_NODE(INQUIRY_TOMB, NUETRAL)
-    "I held her spirit, and knew it well.",
+    "I held her spirit long ago, but still know it well.",
     ""
   `ENDNODE
   
@@ -162,15 +162,15 @@ public function initDialogue() {
   `ENDNODE
   
   `NEW_NODE(INQUIRY_TOMB, NUETRAL)
-    "Free her will upon the world,",
+    "Free the will of my sisters spirit upon the world,",
     "bring us back her botanical blessing."
   `ENDNODE
   
   // ----------------------------------------------------------------------- //
   
   `NEW_NODE(INQUIRY_GOLEM, NUETRAL)
-    "The ethereal hand of our moonlight cast itself upon",
-    "a set of scrolls, writing what we call the Lunar Credo."
+    "The ethereal hand from moonlit magick cast itself upon",
+    "a set of scrolls, creating a writing that we call the Lunar Credo."
   `ENDNODE
   
   `NEW_NODE(INQUIRY_GOLEM, NUETRAL)
@@ -184,7 +184,7 @@ public function initDialogue() {
   `ENDNODE
   
   `NEW_NODE(INQUIRY_GOLEM, NUETRAL)
-    "From each esoteric passage, I've learned only that mystery",
+    "From each esoteric passage, I learned only that mystery",
     "holds a thick cloak over our world."
   `ENDNODE
   
