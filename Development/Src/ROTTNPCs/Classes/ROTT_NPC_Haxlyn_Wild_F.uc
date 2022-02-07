@@ -52,12 +52,12 @@ public function initDialogue() {
   `ENDNODE
   
   `NEW_NODE(GREETING, NUETRAL)
-    "And when these images appear. . .",
+    "And when these visions appear. . .",
     ""
   `ENDNODE
   
   `NEW_NODE(GREETING, NUETRAL)
-    "I. . . I pray.",
+    "I pray. . .",
     ""
   `ENDNODE
   
