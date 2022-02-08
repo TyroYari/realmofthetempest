@@ -49,17 +49,17 @@ public function initDialogue() {
   `ENDNODE
 
   `NEW_NODE(INTRODUCTION, NUETRAL)
-    "And you must be. . . %n.  How would I know your name?", 
-    ""
+    "So you are that %n hero?", 
+    "How would I know that your name is. . . ? Well. . ."
   `ENDNODE
 
   `NEW_NODE(INTRODUCTION, NUETRAL)
     "News does not travel to our quiet mountain shrine often,", 
-    "but I read it in your skin."
+    "but I've read it, it's in your skin."
   `ENDNODE
 
   `NEW_NODE(INTRODUCTION, NUETRAL)
-    "So you finally escaped the commotion of Talonovia?", 
+    "So. . . you've finally escaped the commotion of Talonovia?", 
     ""
   `ENDNODE
 
@@ -69,8 +69,8 @@ public function initDialogue() {
   `ENDNODE
 
   `NEW_NODE(INTRODUCTION, NUETRAL)
-    "If I may ask, was it frustrating. . . to find your way?", 
-    ""
+    "I'd like to ask, if I may, it's been frustrating. . . hasn't it?", 
+    "To find your way?"
   `ENDNODE
 
   `NEW_NODE(INTRODUCTION, NUETRAL)
