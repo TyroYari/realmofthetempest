@@ -28,45 +28,76 @@ public function initDialogue() {
   
   // Introduction
   `NEW_NODE(INTRODUCTION, NUETRAL)
-    "Drujiva speaking, druid sage of this. . .", 
-    "Mountain temple."
+    "Distant birds quietly chatter in the distance, as an old man", 
+    "gently lifts open his eyes from a pose of deep meditation."
   `ENDNODE
+  setColor(DEFAULT_MEDIUM_GOLD);
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
-    "I don't know if I can. . .", 
-    "Fix this fallen world again."
+    "Well now, a visitor after all this time.", 
+    ""
+  `ENDNODE
+      
+  `NEW_NODE(INTRODUCTION, NUETRAL)
+    "I'm Drujiva, druid sage from the Temple of Nature,", 
+    "I act now as the speaker for the mountain."
+  `ENDNODE
+      
+  `NEW_NODE(INTRODUCTION, NUETRAL)
+    "With each new day here, I'll stand feet firmly in the soil,", 
+    "restoring the land with thorough deep breaths, until the sun sets."
   `ENDNODE
 
   `NEW_NODE(INTRODUCTION, NUETRAL)
-    "The golden ornaments have become sprawled out,", 
-    "now in the hands of evil, amid the chaos of this. . ."
-  `ENDNODE
-  
-  `NEW_NODE(INTRODUCTION, NUETRAL)
-    ". . . black magic tragedy. . .", 
+    "And you must be. . . %n.  How would I know your name?", 
     ""
   `ENDNODE
-  
+
   `NEW_NODE(INTRODUCTION, NUETRAL)
-    "Why not try to help us?", 
-    "Seek out the ornaments, and return them here."
+    "News does not travel to our quiet mountain shrine often,", 
+    "but I read it in your skin."
   `ENDNODE
-  
+
   `NEW_NODE(INTRODUCTION, NUETRAL)
-    "The golden relics lie in the fallen citadels", 
-    "of Rhunia, Etzland, Haxlyn, Valimor, and Kalroth."
-  `ENDNODE
-  
-  `NEW_NODE(INTRODUCTION, NUETRAL)
-    "Bring healing here, to this four spirit house,", 
-    "where the sun shines holy light down upon it's peak."
-  `ENDNODE
-  
-  `NEW_NODE(INTRODUCTION, NUETRAL)
-    "Then shall we. . . find hope. . . in order. . .", 
+    "So you finally escaped the commotion of Talonovia?", 
     ""
   `ENDNODE
-  
+
+  `NEW_NODE(INTRODUCTION, NUETRAL)
+    "The one thing that council agrees on is perpetual disagreement.", 
+    ""
+  `ENDNODE
+
+  `NEW_NODE(INTRODUCTION, NUETRAL)
+    "If I may ask, was it frustrating. . . to find your way?", 
+    ""
+  `ENDNODE
+
+  `NEW_NODE(INTRODUCTION, NUETRAL)
+    "Amidst all this chaos, from the aftermath of the black magic tragedy,", 
+    "nothing is for certain."
+  `ENDNODE
+
+  `NEW_NODE(INTRODUCTION, NUETRAL)
+    "A sacred collection of golden ornaments have become spawled out,", 
+    "now in the hands of evil."
+  `ENDNODE
+
+  `NEW_NODE(INTRODUCTION, NUETRAL)
+    "These precious relics lie in the fallen citadels of", 
+    "Rhunia, Etzland, Haxlyn, Valimor, and Kalroth."
+  `ENDNODE
+
+  `NEW_NODE(INTRODUCTION, NUETRAL)
+    "No one knows who is responsible for this mess, why gatekeepers", 
+    "fall from the ethereal stream, why illness spreads, or why wars begin."
+  `ENDNODE
+
+  `NEW_NODE(INTRODUCTION, NUETRAL)
+    "But won't you seek them out?  With all the golden ornaments collected,", 
+    "this world will know nothing but peace in the restoration of our natural order."
+  `ENDNODE
+
   setInquiry(
     "Goodnight",
     "",
