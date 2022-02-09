@@ -74,7 +74,7 @@ public function initDialogue() {
   `ENDNODE
 
   `NEW_NODE(INTRODUCTION, NUETRAL)
-    "Amidst all this chaos, from the aftermath of the black magic tragedy,", 
+    "Amidst all this chaos, from the aftermath of that. . . black magic tragedy,", 
     "nothing is for certain."
   `ENDNODE
 
@@ -89,13 +89,18 @@ public function initDialogue() {
   `ENDNODE
 
   `NEW_NODE(INTRODUCTION, NUETRAL)
-    "No one knows who is responsible for this mess, why gatekeepers", 
+    "No one's told who is responsible for this mess, why gatekeepers", 
     "fall from the ethereal stream, why illness spreads, or why wars begin."
   `ENDNODE
 
   `NEW_NODE(INTRODUCTION, NUETRAL)
-    "But won't you seek them out?  With all the golden ornaments collected,", 
-    "this world will know nothing but peace in the restoration of our natural order."
+    "But you'll seek them out, won't you?", 
+    "I am stuck. . . tethered here, tending to the mountain shrine."
+  `ENDNODE
+
+  `NEW_NODE(INTRODUCTION, NUETRAL)
+    "With all the golden ornaments collected, this world will know", 
+    "nothing but peace in the restoration of good. . . our natural order."
   `ENDNODE
 
   setInquiry(
@@ -111,18 +116,24 @@ public function initDialogue() {
   );
   
   // Greeting
+  //`NEW_NODE(GREETING, NUETRAL)
+  //  "Each branch of the Sister's Oak", 
+  //  "forms a stem of hope."
+  //`ENDNODE
+  
+  // Greeting
   `NEW_NODE(GREETING, NUETRAL)
-    "Each branch of the Sister's Oak", 
-    "forms a stem of hope."
+    "Hello again.", 
+    ""
   `ENDNODE
   
   `NEW_NODE(GREETING, NUETRAL)
-    "What can I do for you?", 
+    "Fairing well I hope?", 
     ""
   `ENDNODE
   
   /**
-  "I sense you have brought the keys to our salvation."
+  "I've sensed the power of the ornaments in your posession."
   "Well done."
   [Offer items][Goodbye]
   
