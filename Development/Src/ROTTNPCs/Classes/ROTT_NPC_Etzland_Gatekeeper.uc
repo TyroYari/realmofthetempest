@@ -26,13 +26,16 @@ public function initDialogue() {
   
   // Greeting
   `NEW_NODE(GREETING, NUETRAL)
-    "The dark conscience lurks below our vestigial hearts.",
-    ""
+    "The dark conscience lurks below our vestigial hearts.",   
+    "" 
+    // Vestigial means obsolete, unused
   `ENDNODE
   
   `NEW_NODE(GREETING, NUETRAL)
     "Ablation for oblation,",
     "our hearts in our hands are our offering."
+    // Ablation means surgical removal of body tissue
+    // Oblation is a thing presented or offered to God 
   `ENDNODE
   
   `NEW_NODE(GREETING, NUETRAL)
