@@ -32,12 +32,12 @@ public function initDialogue() {
   setColor(DEFAULT_MEDIUM_GOLD);
   
   `NEW_NODE(GREETING, NUETRAL)
-    "Even as my biological parts die, I'll still feel alive.",
+    "Even as your biological parts die, I'll still feel alive.",
     ""
   `ENDNODE
   
   `NEW_NODE(GREETING, NUETRAL)
-    "I am a puppet whose strings come from below.",
+    "I am a puppet whose strings come from below!",
     ""
   `ENDNODE
   
