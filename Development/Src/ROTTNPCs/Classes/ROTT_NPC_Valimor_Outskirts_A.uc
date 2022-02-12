@@ -26,18 +26,14 @@ public function initDialogue() {
   
   // Intro
   `NEW_NODE(GREETING, NUETRAL)
-    "Light blinds us so we hate the colors of your clans.",
+    "A figure lurks in the shadows. . .",
     ""
   `ENDNODE
+  setColor(DEFAULT_MEDIUM_GOLD);
   
   `NEW_NODE(GREETING, NUETRAL)
-    "Touch hurts us so we hate the feeling of your skin.",
-    ""
-  `ENDNODE
-  
-  `NEW_NODE(GREETING, NUETRAL)
-    "Get away from me.  Who are you",
-    "and why are you in my house?"
+    "This entire realm is a dance",
+    "between order. . . and chaos."
   `ENDNODE
   
   // ----------------------------------------------------------------------- //
