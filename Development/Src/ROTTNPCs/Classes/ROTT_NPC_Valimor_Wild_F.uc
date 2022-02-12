@@ -24,8 +24,6 @@ class ROTT_NPC_Valimor_Wild_F extends ROTT_NPC_Container;
 public function initDialogue() {
   super.initDialogue();
   
-  /// https://www.youtube.com/watch?v=vtuoNCfbnYM
-  
   // Intro
   `NEW_NODE(GREETING, NUETRAL)
     "In a dusty library, a solemn figure reads from dirty tomes. . .",
@@ -34,28 +32,8 @@ public function initDialogue() {
   setColor(DEFAULT_MEDIUM_GOLD);
   
   `NEW_NODE(GREETING, NUETRAL)
-    "Witch-like peers are here to sing. . . What knots tie",
-    "romance two strings. . ."
-  `ENDNODE
-  
-  `NEW_NODE(GREETING, NUETRAL)
-    "Any knew more ibex prayers. . .",
-    "Or is your beginning not said in pairs?"
-  `ENDNODE
-  
-  `NEW_NODE(GREETING, NUETRAL)
-    "Hello, good night, reentered spring.",
-    ""
-  `ENDNODE
-  
-  `NEW_NODE(GREETING, NUETRAL)
-    "Ear the ocean while it. . . empties. . .",
-    "rings. . ."
-  `ENDNODE
-  
-  `NEW_NODE(GREETING, NUETRAL)
-    "Tell my patients, morph in crimes. . .",
-    "Backward saint falls, but never hides. . ."
+    "Witch-like peers are here to sing. . . ",
+    "What knots tie romance to strings."
   `ENDNODE
   
   // ----------------------------------------------------------------------- //
