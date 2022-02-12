@@ -26,14 +26,69 @@ public function initDialogue() {
   
   // Intro
   `NEW_NODE(GREETING, NUETRAL)
-    "A figure lurks in the shadows. . .",
+    "A distracted man hums and sings around a collection of burning candles. . .",
     ""
   `ENDNODE
   setColor(DEFAULT_MEDIUM_GOLD);
   
   `NEW_NODE(GREETING, NUETRAL)
-    "This entire realm is a dance",
-    "between order. . . and chaos."
+    "If the words sound strange, twisted and deranged,",
+    "a little bit dark, yet shiny."
+  `ENDNODE
+  
+  `NEW_NODE(GREETING, NUETRAL)
+    "Say crows feet grow, and ghosts eat crows,",
+    "while simple hands stay hiding."
+  `ENDNODE
+  
+  `NEW_NODE(GREETING, NUETRAL)
+    "Ohhhhh. . .",
+    ""
+  `ENDNODE
+  
+  `NEW_NODE(GREETING, NUETRAL)
+    "Rosy coats and cozy coats and little hands of lightning.",
+    ""
+  `ENDNODE
+  
+  `NEW_NODE(GREETING, NUETRAL)
+    "A kid will see lightning too, wouldn't you?",
+    ""
+  `ENDNODE
+  
+  `NEW_NODE(GREETING, NUETRAL)
+    "Rosy coats and cozy coats",
+    "and little hands of lightning."
+  `ENDNODE
+  
+  `NEW_NODE(GREETING, NUETRAL)
+    "A kid will see lightning too, wouldn't you. . . ?",
+    ""
+  `ENDNODE
+  
+  `NEW_NODE(GREETING, NUETRAL)
+    "If the worms found fear, by staring in the mirror,",
+    "a little bit dirty and slimy."
+  `ENDNODE
+  
+  `NEW_NODE(GREETING, NUETRAL)
+    "Smoke would show,",
+    ""
+  `ENDNODE
+  
+  `NEW_NODE(GREETING, NUETRAL)
+    "Lights would strobe,",
+    ""
+  `ENDNODE
+  
+  `NEW_NODE(GREETING, NUETRAL)
+    "With four little bolts of lightning.",
+    ""
+  `ENDNODE
+  
+  `NEW_NODE(GREETING, NUETRAL)
+    "Ohhhhh. . .",
+    ""
   `ENDNODE
   
   // ----------------------------------------------------------------------- //
