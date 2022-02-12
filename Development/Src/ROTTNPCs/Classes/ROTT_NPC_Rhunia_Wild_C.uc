@@ -37,8 +37,8 @@ public function initDialogue() {
   `ENDNODE
   
   `NEW_NODE(GREETING, NUETRAL)
-    "Now, every time I kneel beside my bed in prayer,",
-    "I. . . I lose myself, as if I were asleep."
+    "Now every time I've knelt beside my bed in prayer,",
+    "I. . . I. . . I lose myself, as if I've fallen asleep."
   `ENDNODE
   
   `NEW_NODE(GREETING, NUETRAL)
@@ -48,7 +48,7 @@ public function initDialogue() {
   
   `NEW_NODE(GREETING, NUETRAL)
     "When I've embraced my loved ones,",
-    "again my mind washes away."
+    "again I've felt my mind just. . . washes away."
   `ENDNODE
   
   `NEW_NODE(GREETING, NUETRAL)
@@ -57,17 +57,17 @@ public function initDialogue() {
   `ENDNODE
   
   `NEW_NODE(GREETING, NUETRAL)
-    "My mind has lost its link to heaven and body.",
+    "My. . . My-My mind has lost its link to heaven and body!",
     ""
   `ENDNODE
   
   `NEW_NODE(GREETING, NUETRAL)
-    "Memory of hope and affection leak from me.",
+    "Memory of hope and affection leak from me!",
     ""
   `ENDNODE
   
   `NEW_NODE(GREETING, NUETRAL)
-    "Please kill me.",
+    "I'm begging now. . . Please kill me.",
     ""
   `ENDNODE
   
