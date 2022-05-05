@@ -34,13 +34,29 @@ public function initDialogue() {
   setColor(DEFAULT_MEDIUM_GOLD);
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
-    "I'm aware, you know. . .",
-    "Spirits whispered of your arrival to me."
+    "Don't mind me, I'm just inhaling toxins.",
+    ""
+  `ENDNODE
+  
+  `NEW_NODE(INTRODUCTION, NUETRAL)
+    "Spirits whispered of your arrival, you know. . .",
+    "I do not lie."
   `ENDNODE
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
     "The wispy murmurs of spirits chatter,",
-    "while the tempest screams toward us!"
+    "while your tempests scream toward us!" //rr2
+  `ENDNODE
+  
+  `NEW_NODE(INTRODUCTION, NUETRAL)
+    "Her coughs continue. . .",
+    ""
+  `ENDNODE
+  setColor(DEFAULT_MEDIUM_GOLD);
+  
+  `NEW_NODE(INTRODUCTION, NUETRAL)
+    "My name is known throughout the kindgoms.",
+    ""
   `ENDNODE
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
@@ -54,45 +70,55 @@ public function initDialogue() {
   `ENDNODE
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
-    "You hear them too, don't you?",
-    "The spirits. . . The spirits. . . The spirits!"
+    "You hear don't them too. . .  Do you?", // ll2
+    "The spirits?"
   `ENDNODE
   
     `ADD_OPTIONS(INTRODUCTION, NUETRAL)
-      "Sure",
-      "Not really",
-      "Are you mad or what?",
-      ""
+      "I do not listen to ghosts",
+      "I'm well attuned",
+      "To what spirits?",
+      "I don't know, are you all right?"
     `ENDNODE
     
       `ADD_REPLY(INTRODUCTION, NUETRAL, 0)
-        "This curse is not too common. . .",
-        "What a blessing I found you."
+        "Well, when you get a wiff of my cauldron. . .",
+        "Nevermind."
       `ENDNODE
     
       `ADD_REPLY(INTRODUCTION, NUETRAL, 1)
-        "Have no fear.  I am here to relay you their secrets.",
+        "You're attuned to what?",
+        "The electric air of the ethereal stream!?"
+      `ENDNODE
+    
+      `ADD_REPLY(INTRODUCTION, NUETRAL, 2)
+        "Ding! Ding!",
+        "The flood gates open!"
+      `ENDNODE
+    
+      `ADD_REPLY(INTRODUCTION, NUETRAL, 2)
+        "The wraiths rush out,",
+        "souls howling, chains clinking."
+      `ENDNODE
+    
+      `ADD_REPLY(INTRODUCTION, NUETRAL, 2)
+        "Mirrors shattering on the floor. . .",
         ""
       `ENDNODE
     
       `ADD_REPLY(INTRODUCTION, NUETRAL, 2)
-        "Swallow your spit, coward.",
-        "You cannot taunt me or the goddess we must serve."
-      `ENDNODE
-    
-      `ADD_REPLY(INTRODUCTION, NUETRAL, 2)
-        "Madness is no weakness when the darkness",
-        "deepens, like it does here in this realm."
+        "Huh?  I really do not have time to play games, love.",
+        ""
       `ENDNODE
     
   `NEW_NODE(INTRODUCTION, NUETRAL)
-    "There is terror in the dark,",
-    "and the spirits know it."
+    "There is terror in our dark little realm,",
+    "and the spirits know it." //rr1
   `ENDNODE
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
-    "They tell me your path will wind through the storms",
-    "until you've reached a citadel, and a tower."
+    "They tell me that your path will wind through the storms",
+    "until you reach a citadel, and a tower."
   `ENDNODE
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
