@@ -52,7 +52,7 @@ public function initDialogue() {
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
     "Keeper of beasts and demons,",
-    "my name is Tannim, at your service." // rl1
+    "my name is Tannim, at your service."
   `ENDNODE
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
