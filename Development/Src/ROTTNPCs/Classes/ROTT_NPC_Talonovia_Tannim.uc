@@ -46,35 +46,40 @@ public function initDialogue() {
   setColor(DEFAULT_MEDIUM_GOLD);
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
-    "So, are you the new face in town?",
+    "Are you the new face in town?",
     ""
   `ENDNODE
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
     "Keeper of beasts and demons,",
-    "Tannim, at your service."
+    "my name is Tannim, at your service." // rl1
+  `ENDNODE
+  
+  `NEW_NODE(INTRODUCTION, NUETRAL)
+    "You all right?",
+    "First day at the harbor can be rough."
   `ENDNODE
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
     "Since you have the eyes of a young wanderer,",
-    "I'll have to ask you to tread carefully around the Obelisk of Rhunia."
+    "I'll have to ask that you tread carefully around the Obelisk of Rhunia."
   `ENDNODE
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
     "Ever since \"the black magic tragedy\", the Talonovian high council",
-    "has been in all sorts of disagreements."
+    "has been in nothing but petty disagreements."
   `ENDNODE
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
-    "The solution is simple.  Just don't.",
-    "Leave Rhunia's obelisk alone."
+    "I really don't care for arguments.  The solution is simple.",
+    "Just leave Rhunia's obelisk alone."
   `ENDNODE
   
   // ----------------------------------------------------------------------- //
   
   `NEW_NODE(GREETING, NUETRAL)
-    "You are safe here, friend.",
-    "You really are."
+    "You're in good hands, friend.",
+    "How may I help you?"
   `ENDNODE
   
     `ADD_OPTIONS(GREETING, NUETRAL)
