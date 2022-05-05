@@ -47,45 +47,35 @@ public function initDialogue() {
   `ENDNODE
   
     `ADD_OPTIONS(INTRODUCTION, NUETRAL)
-      "Here to help.",
-      "For the fight against evil.",
-      "I don't know.",
-      "None of your business, \"Salus.\""
+      "I am here to help.",                // ll2
+      "I'm here to fight evil.",           // rr1
+      "I don't know.",                     // ll2
+      "None of your business, \"Salus.\""  // lr1
     `ENDNODE
     
       `ADD_REPLY(INTRODUCTION, NUETRAL, 0)
-        "What bravery, you know.",
-        "You can't say no to an extra hand."
+        "That fresh breath of bravery is out there.",
+        "Can't say no to an extra hand."
       `ENDNODE
     
       `ADD_REPLY(INTRODUCTION, NUETRAL, 1)
-        "Ohhh ho ho, now! New combat seeker, ready to enter the fold?",
-        "For the fight against evil . . . ?  Is the lord with you?"
-      `ENDNODE
-    
-      `ADD_REPLY(INTRODUCTION, NUETRAL, 1)
-        "Skies above, I mean I am just askin, you know.",
-        ""
+        "What's that? I doubt you are capable of doing harm.",
+        "I really don't know a fighter when I. . . I see one."
       `ENDNODE
     
       `ADD_REPLY(INTRODUCTION, NUETRAL, 2)
-        "Searching for purpose then, is it? Do you really",
-        "want to hear how I've been there, and done that?"
+        "Searching for purpose? I'll tell you what.",
+        "When I don't know, I don't know."
       `ENDNODE
     
       `ADD_REPLY(INTRODUCTION, NUETRAL, 2)
-        "Lord, no.  Godspede.",
-        ""
+        "But the hand of Serenity has a hold on our realm.",
+        "You know?"
       `ENDNODE
     
       `ADD_REPLY(INTRODUCTION, NUETRAL, 3)
-        "As a cleric's promise, my business is with the well-being of my people.",
-        "So how about you think for a while, ok bitter outlander?"
-      `ENDNODE
-    
-      `ADD_REPLY(INTRODUCTION, NUETRAL, 3)
-        "You'll think, and you'll think, and you still won't get it.",
-        ""
+        "I really don't agree.",
+        "As a cleric's promise, my business is with the well-being of my people."
       `ENDNODE
     
   `NEW_NODE(INTRODUCTION, NUETRAL)
