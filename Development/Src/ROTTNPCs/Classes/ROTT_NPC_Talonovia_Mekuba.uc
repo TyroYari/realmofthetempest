@@ -49,8 +49,18 @@ public function initDialogue() {
     `ENDNODE
     
       `ADD_REPLY(INTRODUCTION, NUETRAL, 0)
-        "Watcher of the damned, lord of rot. . .",
+        "What do you seek?",
+        ""
+      `ENDNODE
+    
+      `ADD_REPLY(INTRODUCTION, NUETRAL, 0)
+        "I am watcher of the damned, lord of rot. . .",
         "You speak now to Mekuba."
+      `ENDNODE
+    
+      `ADD_REPLY(INTRODUCTION, NUETRAL, 0)
+        "Necromancy, this is not my profession,",
+        "but a birthright."
       `ENDNODE
     
   // ----------------------------------------------------------------------- //
@@ -113,11 +123,11 @@ public function initDialogue() {
   
   `NEW_NODE(INQUIRY_GOLEM, NUETRAL)
     "The chains that hold the golem's breath",
-    "obstruct us from our history."
+    "obstruct us from what's hiding in our history."
   `ENDNODE
   
   `NEW_NODE(INQUIRY_GOLEM, NUETRAL)
-    "Release them, so we might learn from their mysteries.",
+    "Release them, so you may learn from their mysteries.",
     ""
   `ENDNODE
   
