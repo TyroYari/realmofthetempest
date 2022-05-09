@@ -33,35 +33,35 @@ public function initDialogue() {
   setColor(DEFAULT_MEDIUM_GOLD);
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
-    "Greetings. . .",
-    ""
+    "Hi.  You're not the first stranger to pop up here",
+    "at my house." 
   `ENDNODE
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
-    "The mystical gates of this harbor here were woven",
-    "by ancient sages to be our nexus across the realm."
+    "The mystical gates of this harbor were woven", 
+    "by ancient sages for us to to act as our nexus across the realm."
   `ENDNODE
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
-    "I'm formerly a prince of royal blood, but my kingdom is long lost.",
-    "Named by the emperor at birth. . . I'll be addressed as Kalev."
+    "I am formerly a prince of royal blood, but my kingdom is lost in chaos.",
+    "Named by the emperor at birth. . . I'm addressed as Kalev."
   `ENDNODE
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
-    "The gate to Rhunia will lead you to a forsaken citadel, where",
-    "if your courage permits, you'll find an obelisk."
+    "The gate to Rhunia will lead you on your journey to a forsaken citadel, where",
+    "if your courage permits, you'll find an obelisk." 
   `ENDNODE
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
-    "Do not engage with the obelisk. . .",
-    "Do not empower its magick."
+    "I do not play with magick.",
+    "I would not engage the obelisk."
   `ENDNODE
   
   // ----------------------------------------------------------------------- //
   
   `NEW_NODE(GREETING, NUETRAL)
     "You're just in time for cider and short bread, %n.",
-    ""
+    "I do not mind sharing."
   `ENDNODE
   
     `ADD_OPTIONS(GREETING, NUETRAL)
