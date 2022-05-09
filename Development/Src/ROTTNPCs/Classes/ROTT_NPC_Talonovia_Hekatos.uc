@@ -113,24 +113,29 @@ public function initDialogue() {
     
   `NEW_NODE(INTRODUCTION, NUETRAL)
     "There is terror in our dark little realm,",
-    "and the spirits know it." //rr1
+    "and the spirits know it." 
   `ENDNODE
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
     "They tell me that your path will wind through the storms",
-    "until you reach a citadel, and a tower."
+    "until you reach a citadel, and a tower." 
   `ENDNODE
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
     "It is the obelisk of Rhunia.",
-    "When you reach it, abstain from its agitation."
+    "When you reach it's base, abstain from engaging magic."
+  `ENDNODE
+  
+  `NEW_NODE(INTRODUCTION, NUETRAL)
+    "Stay away!",
+    "You understand?"
   `ENDNODE
   
   // ----------------------------------------------------------------------- //
   
   `NEW_NODE(GREETING, NUETRAL)
-    "I'm everywhere, anywhere, and nowhere, sweetheart.",
-    "How can I help?"
+    "I do not see you love.",
+    "Why don't you come closer?"
   `ENDNODE
   
     `ADD_OPTIONS(GREETING, NUETRAL)
