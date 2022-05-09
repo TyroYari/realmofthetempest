@@ -47,10 +47,10 @@ public function initDialogue() {
   `ENDNODE
   
     `ADD_OPTIONS(INTRODUCTION, NUETRAL)
-      "I am here to help.",                // ll2
-      "I'm here to fight evil.",           // rr1
-      "I don't know.",                     // ll2
-      "None of your business, \"Salus.\""  // lr1
+      "I am here to help.",               
+      "I'm here to fight evil.",          
+      "I don't know.",                    
+      "None of your business, \"Salus.\"" 
     `ENDNODE
     
       `ADD_REPLY(INTRODUCTION, NUETRAL, 0)
@@ -96,7 +96,7 @@ public function initDialogue() {
   // ----------------------------------------------------------------------- //
   
   `NEW_NODE(GREETING, NUETRAL)
-    "May the storm bless and keep you, traveler.",
+    "May the storms settle in your heart.",
     ""
   `ENDNODE
   
