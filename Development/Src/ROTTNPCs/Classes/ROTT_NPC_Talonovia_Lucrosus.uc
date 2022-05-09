@@ -34,72 +34,111 @@ public function initDialogue() {
   
   // Intro
   `NEW_NODE(INTRODUCTION, NUETRAL)
-    "Yes this shop is open, welcome!",
+    "Well if it isn't a new spirit walker. . .",
     ""
   `ENDNODE
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
-    "Offering wares blessed by the silver wind,",
-    "with the shine that guides the path of all great heroes!"
+    "The bear grunts briefly, tilting up and",
+    "sniffing the air."
+  `ENDNODE
+  setColor(DEFAULT_MEDIUM_GOLD);
+  
+  `NEW_NODE(INTRODUCTION, NUETRAL)
+    "Our wares blessed by the silver wind are nothing",
+    "but a humble gift to assist on your brave adventures." // ll1
   `ENDNODE
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
-    "If you're keen to a cut of fortune for yourself,",
-    "why not seek out the Obelisk's shrine for me?"
+    "Well, for a fee.",
+    "" 
   `ENDNODE
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
-    "You have heard of this haven't you?",
+    "The bear exhales powerfully.",
+    ""
+  `ENDNODE
+  setColor(DEFAULT_MEDIUM_GOLD);
+  
+  `NEW_NODE(INTRODUCTION, NUETRAL)
+    "Do you chase after currency?",
+    "" 
+  `ENDNODE
+  
+  `NEW_NODE(INTRODUCTION, NUETRAL)
+    "The bear whines and pushes some.",
+    "gold coins across the floor."
+  `ENDNODE
+  setColor(DEFAULT_MEDIUM_GOLD);
+  
+  `NEW_NODE(INTRODUCTION, NUETRAL)
+    "I don't. Why bother?",
+    ""
+  `ENDNODE
+  
+  `NEW_NODE(INTRODUCTION, NUETRAL)
+    "Have you heard of this obelisk business?",
     ""
   `ENDNODE
   
     `ADD_OPTIONS(INTRODUCTION, NUETRAL)
-      "Uhuh. . .",
-      "No",
+      "I have no idea.",
+      "I've heard that's an issue.",
       "",
       ""
     `ENDNODE
     
       `ADD_REPLY(INTRODUCTION, NUETRAL, 0)
-        "Splendid news!",
-        ""
+        "We don't squabble for no reason, but the",
+        "Talonovian Council believes you'll help resolve the matter."
+      `ENDNODE
+    
+      `ADD_REPLY(INTRODUCTION, NUETRAL, 0)
+        "I don't have a solution, but a recommendation.",
+        "A suggestion unwise to refuse."
       `ENDNODE
     
       `ADD_REPLY(INTRODUCTION, NUETRAL, 1)
-        "The obelisk is an abandoned monument in the citadel of Rhunia.",
+        "It isn't an issue, but you'll need to make",
+        "a decision."
+      `ENDNODE
+          
+      `ADD_REPLY(INTRODUCTION, NUETRAL, 1)
+        "I have nothing but a recommendation to suggest.",
         ""
       `ENDNODE
-    
+          
   `NEW_NODE(INTRODUCTION, NUETRAL)
-    "Praying at the shrine summons an immense power,",
-    "whose flow will cripple food production."
-  `ENDNODE
-  
-  `NEW_NODE(INTRODUCTION, NUETRAL)
-    "Supply and demand will forge my wages with an iron hammer,",
-    "which will kindly bless my hungry treasury."
-  `ENDNODE
-  
-  `NEW_NODE(INTRODUCTION, NUETRAL)
-    "You do understand, don't you?",
+    "The bear glares directly at you.",
     ""
   `ENDNODE
+  setColor(DEFAULT_MEDIUM_GOLD);
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
-    "It's also a protective obelisk, so everyone benefits.",
-    ""
+    "That obelisk in Rhunia is an abandoned monument,",
+    "found in the citadel."
   `ENDNODE
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
-    "Go call the roar of this ancient tower,",
-    "and you'll have my. . . my deepest praise. . ."
+    "Praying at the shrine summons an immense flowing power,",
+    "crippling food production."
+  `ENDNODE
+  
+  `NEW_NODE(INTRODUCTION, NUETRAL)
+    "Supply and demand.  My business is nothing but",
+    "a matter of currency."
+  `ENDNODE
+  
+  `NEW_NODE(INTRODUCTION, NUETRAL)
+    "You've understood this request?",
+    "Good.  I don't have time to play games."
   `ENDNODE
   
   // ----------------------------------------------------------------------- //
   
   `NEW_NODE(GREETING, NUETRAL)
     "May fortune smile upon us.",
-    ""
+    "What do you need?"
   `ENDNODE
   
     `ADD_OPTIONS(GREETING, NUETRAL)
