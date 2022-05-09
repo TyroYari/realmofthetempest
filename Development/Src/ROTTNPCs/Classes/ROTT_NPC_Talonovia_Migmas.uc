@@ -32,29 +32,40 @@ public function initDialogue() {
   setColor(DEFAULT_MEDIUM_GOLD);
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
-    "On stormy nights, I'll watch the wind raging",
-    "in the tempest, thrashing against itself. . ."
+    "Hello young storm walker.",
+    ""
   `ENDNODE
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
-    "Is this mixing any different than the concoctions",
-    "of alchemy, or are they equally enchanting?"
+    "When thunder strikes I'll watch the wind raging",
+    "in the tempest, thrashing against itself."
+  `ENDNODE
+  
+  `NEW_NODE(INTRODUCTION, NUETRAL)
+    "You're really not the type to believe alchemy works the same way,", 
+    "are you?" // lr1
   `ENDNODE
     
     `ADD_OPTIONS(INTRODUCTION, NUETRAL)
-      "Sure",
-      "Not at all",
+      "I don't do Alchemy",
+      "I'm a believer",
       "",
       ""
     `ENDNODE
     
       `ADD_REPLY(INTRODUCTION, NUETRAL, 0)
-        "Excellently so.",
-        ""
+        "We do not always know what we need,",
+        "but I really believe in the power of alchemical services."
       `ENDNODE
     
       `ADD_REPLY(INTRODUCTION, NUETRAL, 1)
-        "Suppose so.",
+        "I'll push the alchemical craft to the limit",
+        "for a fellow believer."
+      `ENDNODE
+    
+    
+      `ADD_REPLY(INTRODUCTION, NUETRAL, 1)
+        "That is what I do.",
         ""
       `ENDNODE
     
@@ -64,34 +75,29 @@ public function initDialogue() {
   `ENDNODE
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
-    "I am not often the type for company, but I'll handle your",
+    "I do not always care for company, but I'll handle your",
     "enchantment services for a fair price."
   `ENDNODE
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
-    "Now listen well, and heed this advice carefully. . .",
-    ""
+    "Through the portal of Rhunia, you'll find an obelisk",
+    "towering above the halls of an abandoned citadel." 
   `ENDNODE
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
-    "Through the portal of Rhunia, you will find an obelisk",
-    "towering above the halls of an abandoned citadel."
-  `ENDNODE
-  
-  `NEW_NODE(INTRODUCTION, NUETRAL)
-    "You can't read the psalms of Rhunia without",
+    "You can't read the psalms of Rhunia without", 
     "awakening a lost magnificent power from within. . ."
   `ENDNODE
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
-    "So go forth to the shrine beneath this monument,",
-    "and let's see if you'll restore the power of this ancient magick."
+    "So go forth to the shrine beneath this monument,", //rr2
+    "and let's see if you'll restore the power of that ancient stone."
   `ENDNODE
   
   // ----------------------------------------------------------------------- //
   
   `NEW_NODE(GREETING, NUETRAL)
-    "Do you need something?",
+    "You don't need help, do you?",
     ""
   `ENDNODE
   
