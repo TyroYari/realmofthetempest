@@ -34,7 +34,7 @@ public function initDialogue() {
   setColor(DEFAULT_MEDIUM_GOLD);
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
-    "Don't mind me, I'm just inhaling toxins.",
+    "Oh don't mind me, I am just inhaling toxins.",
     ""
   `ENDNODE
   
@@ -45,7 +45,7 @@ public function initDialogue() {
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
     "The wispy murmurs of spirits chatter,",
-    "while your tempests scream toward us!" //rr2
+    "when your tempests scream toward us!" //rr2
   `ENDNODE
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
@@ -278,7 +278,6 @@ defaultProperties
   end object
   npcSprites=NPC_Sprites
 }
-
 
 
 
