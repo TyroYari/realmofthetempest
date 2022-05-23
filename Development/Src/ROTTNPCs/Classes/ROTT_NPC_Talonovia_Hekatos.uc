@@ -34,7 +34,7 @@ public function initDialogue() {
   setColor(DEFAULT_MEDIUM_GOLD);
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
-    "Oh don't mind me, I am just inhaling toxins.",
+    "Don't mind me, I'm just inhaling toxins.",
     ""
   `ENDNODE
   
