@@ -32,33 +32,39 @@ public function initDialogue() {
   setColor(DEFAULT_MEDIUM_GOLD);
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
-    "And in the additive space, black is the emptiness of all color.",
+    "But in the additive space, black is the emptiness of all color.",
     ""
   `ENDNODE
   setColor(DEFAULT_MEDIUM_GOLD);
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
-    "But here in this world, black magic is both.",
+    "Here in this world, black magic is both.",
     ""
   `ENDNODE
   setColor(DEFAULT_MEDIUM_GOLD);
   
   // Intro
   `NEW_NODE(INTRODUCTION, NUETRAL)
-    "Wake up.",
+    "Wake up.", //rl1
     ""
   `ENDNODE
   overrideMusic(INTRODUCTION, NUETRAL);
   setColor(DEFAULT_MEDIUM_WHITE);
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
-    "Even when you're dead, waking up is possible.",
+    "A deep humming sound surrounds the environment.",
+    ""
+  `ENDNODE
+  setColor(DEFAULT_MEDIUM_GOLD);
+  
+  `NEW_NODE(INTRODUCTION, NUETRAL)
+    "Even when you're dead, you may still wake.", 
     ""
   `ENDNODE
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
-    "That is just a little trick for us gatekeepers. . .",
-    "out here, in the ethereal stream."
+    "That's our little trick, we are gatekeepers. . .",
+    "Breathing new life out here, in the ethereal stream." //lr1
   `ENDNODE
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
@@ -72,23 +78,23 @@ public function initDialogue() {
   `ENDNODE
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
-    "To cheat life's complement, know now. . . that what",
+    "Now, we cheat. . . That which",
     "precedes life is \"not living.\""
   `ENDNODE
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
     "No world is made without paradox, no matter",
-    "how omnipotent the hand may be."
+    "how omnipotent the hand may be." //lr1
   `ENDNODE
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
-    "You won't find what you seek to obtain here. . .",
-    "for it is no more obtainable here than where you're from."
+    "You'll never find what you seek to obtain here. . .",
+    "for it is no more obtainable here than where you're from." //rl2
   `ENDNODE
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
     "The world is still waiting to feel our presence.",         
-    "So let's incarnate your first familiar."
+    "So let's incarnate you a familiar spirit." //rl2
   `ENDNODE
   
   // character creation
@@ -103,9 +109,15 @@ public function initDialogue() {
   nameCreation(INTRODUCTION, NUETRAL);
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
-    "Alright then.",
+    "That's all right.",
     ""
   `ENDNODE
+  
+  `NEW_NODE(INTRODUCTION, NUETRAL)
+    "Mechanical ticking sounds come from the floor. . .",
+    ""
+  `ENDNODE
+  setColor(DEFAULT_MEDIUM_GOLD);
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
     "Brace yourself %n.",
@@ -113,14 +125,19 @@ public function initDialogue() {
   `ENDNODE
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
-    "Menacing laughter slowly erupts from the cloaked figure. . .",
-    ""
+    "Electricity clicks, pops, and crackles. . .",
+    "The floor is humming. . . Gently. . ."
   `ENDNODE
   setColor(DEFAULT_MEDIUM_GOLD);
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
-    "I came into the world like spit,",
-    "and so will you!"
+    "Your true calling is not with the squabbles of",
+    "the Talonovian Council. . ."
+  `ENDNODE
+  
+  `NEW_NODE(INTRODUCTION, NUETRAL)
+    "But rather in assissting with the search for. . . ",
+    "My daughter."
   `ENDNODE
   
   // Transfer to control sheet
