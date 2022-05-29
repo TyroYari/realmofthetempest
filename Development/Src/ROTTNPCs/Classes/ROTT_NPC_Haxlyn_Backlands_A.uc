@@ -26,40 +26,9 @@ public function initDialogue() {
   
   // Intro
   `NEW_NODE(GREETING, NUETRAL)
-    "whY aRe cycle. . . EaT FOe OR. . . PaD EaTTAM ROoFY ROTS?",
-    "DEZIROT CEiVe?"
-  `ENDNODE
-  
-  `NEW_NODE(GREETING, NUETRAL)
-    "SNOw IS REar ViNk ICey IHPRO MOSILARU TAN. . .",
+    ". . .",
     ""
   `ENDNODE
-  
-  `NEW_NODE(GREETING, NUETRAL)
-    "ST(F,N)=<e1, e2, e3, ... eN>",
-    "kEy MAx, taNk REm HaS IT hI?"
-  `ENDNODE
-  
-  `NEW_NODE(GREETING, NUETRAL)
-    "FaME Tie SYS ShULUC LACAD Be MALaChI Hi PaiRO. . . MY LOPe?",
-    ""
-  `ENDNODE
-  
-  `NEW_NODE(GREETING, NUETRAL)
-    "Hi TURThuR ALUC ID NEar PREPEt TARGET NIght",
-    ""
-  `ENDNODE
-  
-  `NEW_NODE(GREETING, NUETRAL)
-    "GaNI giNO My MUSiNO sIThA NETACa NOCLARO PMET",
-    ""
-  `ENDNODE
-  
-  `NEW_NODE(GREETING, NUETRAL)
-    "STair NIght cASEs HiT FOrm Y GOaL nO PhOTo. . .",
-    "shE HiT it here."
-  `ENDNODE
-  
   
   // ----------------------------------------------------------------------- //
   
