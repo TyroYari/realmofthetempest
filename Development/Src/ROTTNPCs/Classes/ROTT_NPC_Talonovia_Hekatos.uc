@@ -34,12 +34,7 @@ public function initDialogue() {
   setColor(DEFAULT_MEDIUM_GOLD);
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
-    "Here comes the hero.",
-    ""
-  `ENDNODE
-  
-  `NEW_NODE(INTRODUCTION, NUETRAL)
-    "Don't mind me, I'm just inhaling toxins.", //rr2
+    "Don't mind me, I'm just inhaling toxins.", 
     ""
   `ENDNODE
   
