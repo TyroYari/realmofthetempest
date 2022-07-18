@@ -34,18 +34,34 @@ public function initDialogue() {
   setColor(DEFAULT_MEDIUM_GOLD);
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
-    "Don't mind me, I'm just inhaling toxins.",
+    "Here comes the hero.",
     ""
   `ENDNODE
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
-    "Spirits whispered of your arrival, you know. . .",
-    "I do not lie."
+    "Don't mind me, I'm just inhaling toxins.", //rr2
+    ""
   `ENDNODE
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
-    "The wispy murmurs of spirits chatter,",
-    "when your tempests scream toward us!" //rr2
+    "Cauldron bubbles babble gently. . .",
+    ""
+  `ENDNODE
+  setColor(DEFAULT_MEDIUM_GOLD);
+  
+  `NEW_NODE(INTRODUCTION, NUETRAL)
+    "Spirits whispered of your arrival to me.",
+    ""
+  `ENDNODE
+  
+  `NEW_NODE(INTRODUCTION, NUETRAL)
+    "Wispy murmurs from spirits chattering. . .", 
+    ""
+  `ENDNODE
+  
+  `NEW_NODE(INTRODUCTION, NUETRAL)
+    "But then!",
+    "The tempest screams to us!"
   `ENDNODE
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
@@ -55,70 +71,80 @@ public function initDialogue() {
   setColor(DEFAULT_MEDIUM_GOLD);
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
-    "My name is known throughout the kindgoms.",
+    "My name is unknown throughout the kindgoms.", 
     ""
   `ENDNODE
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
     "For it is I, the master practitioner of chemical witchcraft,",
-    "channeler of the high queen of the underworld. . ."
+    "channeler of the high queen of the underworld. . ." //ll1
   `ENDNODE
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
-    "I am Hekatos, Hekatos. . .  Hekatos!",
+    "I am that which is unseen, that which is unheard.",
     ""
   `ENDNODE
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
-    "You hear don't them too. . .  Do you?", // ll2
-    "The spirits?"
+    "I am Hekatos.",
+    "The high queen of the world below."
+  `ENDNODE
+  
+  `NEW_NODE(INTRODUCTION, NUETRAL)
+    "You don't hear spirits. . . Do you?", 
+    "The murmers of my children that have lost their way. . ." // lr1
   `ENDNODE
   
     `ADD_OPTIONS(INTRODUCTION, NUETRAL)
-      "I do not listen to ghosts",
-      "I'm well attuned",
-      "To what spirits?",
-      "I don't know, are you all right?"
+      "I do not listen to ghosts",       // rl1
+      "I'm spiritually tuned",           // rl1
+      "What spirits?",                   // lr2
+      "Are you all right?"               // ll2
     `ENDNODE
     
       `ADD_REPLY(INTRODUCTION, NUETRAL, 0)
-        "Well, when you get a wiff of my cauldron. . .",
-        "Nevermind."
+        "When you get a wiff of this cauldron's fumes,",
+        "the whole world changes."
       `ENDNODE
     
       `ADD_REPLY(INTRODUCTION, NUETRAL, 1)
-        "You're attuned to what?",
-        "The electric air of the ethereal stream!?"
+        "Attuned to what?", 
+        ""
+      `ENDNODE
+    
+      `ADD_REPLY(INTRODUCTION, NUETRAL, 1)
+        "The electric air that's fuels the ethereal stream",
+        "is static, there is no tuning."
       `ENDNODE
     
       `ADD_REPLY(INTRODUCTION, NUETRAL, 2)
         "Ding! Ding!",
-        "The flood gates open!"
+        "When flood gates open, creaking through rust."
       `ENDNODE
     
       `ADD_REPLY(INTRODUCTION, NUETRAL, 2)
-        "The wraiths rush out,",
+        "The wraiths rush through the air,",
         "souls howling, chains clinking."
       `ENDNODE
     
       `ADD_REPLY(INTRODUCTION, NUETRAL, 2)
         "Mirrors shattering on the floor. . .",
-        ""
+        "The cabinets clattering as that terrible sound continues. . ."
       `ENDNODE
     
-      `ADD_REPLY(INTRODUCTION, NUETRAL, 2)
-        "Huh?  I really do not have time to play games, love.",
-        ""
+      `ADD_REPLY(INTRODUCTION, NUETRAL, 3)
+        "Barely, just barely.  I fought a wraith",
+        "with a couple burnt nether roots last night."
       `ENDNODE
     
   `NEW_NODE(INTRODUCTION, NUETRAL)
     "There is terror in our dark little realm,",
-    "and the spirits know it." 
+    "and the ghosts here know this." // rr1
   `ENDNODE
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
     "They tell me that your path will wind through the storms",
-    "until you reach a citadel, and a tower." 
+    "until you reach a citadel, and a tower." // rl1
   `ENDNODE
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
@@ -134,8 +160,8 @@ public function initDialogue() {
   // ----------------------------------------------------------------------- //
   
   `NEW_NODE(GREETING, NUETRAL)
-    "I do not see you love.",
-    "Why don't you come closer?"
+    "I did not see you coming love,",
+    "but what's fun in an adventure is the surprises."
   `ENDNODE
   
     `ADD_OPTIONS(GREETING, NUETRAL)
@@ -165,21 +191,11 @@ public function initDialogue() {
     "to the spirit world."
   `ENDNODE
   
-  ///`NEW_NODE(INQUIRY_OBELISK, NUETRAL)
-  ///  "The raging energy invested within it deafens my link",
-  ///  "to the spirit world."
-  ///`ENDNODE
-  
   // ----------------------------------------------------------------------- //
   
   `NEW_NODE(INQUIRY_TOMB, NUETRAL)
-    "Yes, yes. . . The tomb.",
-    "It is where the soul of the Haxlyn priestess rests."
-  `ENDNODE
-  
-  `NEW_NODE(INQUIRY_TOMB, NUETRAL)
-    "I held her spirit long ago, but still know it well.",
-    ""
+    "The tomb is where the remains of the Haxlyn priestess",
+    "rest, but that is not all." //lr1
   `ENDNODE
   
   `NEW_NODE(INQUIRY_TOMB, NUETRAL)
@@ -188,40 +204,55 @@ public function initDialogue() {
   `ENDNODE
   
   `NEW_NODE(INQUIRY_TOMB, NUETRAL)
-    "The essence of her will is carried through the blossoms,",
-    "the decore for her tomb."
+    "That is what I know from scripture.", //lr1
+    ""
   `ENDNODE
   
   `NEW_NODE(INQUIRY_TOMB, NUETRAL)
-    "Free the will of my sisters spirit upon the world,",
-    "bring us back her botanical blessing."
+    "The essence of her will is carried through the blossoms,",
+    "the decore for her tomb." 
+  `ENDNODE
+  
+  `NEW_NODE(INQUIRY_TOMB, NUETRAL)
+    "I've carried her essense in my training and was healed,",
+    "that is what's happening now for all who have that blessing." //lr1
+  `ENDNODE
+  
+  `NEW_NODE(INQUIRY_TOMB, NUETRAL)
+    "You'll have a chance to free the will of her spirit.",
+    ""
+  `ENDNODE
+  
+  `NEW_NODE(INQUIRY_TOMB, NUETRAL)
+    "And that is what I would do.", //lr1
+    ""
   `ENDNODE
   
   // ----------------------------------------------------------------------- //
   
   `NEW_NODE(INQUIRY_GOLEM, NUETRAL)
     "The ethereal hand from moonlit magick cast itself upon",
-    "a set of scrolls, creating a writing that we call the Lunar Credo."
+    "a set of scrolls, creating a writing that we call the Lunar Credo." // lr1
   `ENDNODE
   
   `NEW_NODE(INQUIRY_GOLEM, NUETRAL)
     "Now banished, the text corrupts all who read it without sagacity.",
-    "It burns holes in their minds."
+    "It'll burn holes in the feeble minded, permanently." // lr2
   `ENDNODE
   
   `NEW_NODE(INQUIRY_GOLEM, NUETRAL)
     "The high queen of the underworld sanctioned me to read three",
-    "of its pages, in which the moonlight etched the golem's husk."
+    "of its pages, in which the moonlight etched the golem's husk." // lr2
   `ENDNODE
   
   `NEW_NODE(INQUIRY_GOLEM, NUETRAL)
-    "From each esoteric passage, I learned only that mystery",
-    "holds a thick cloak over our world."
+    "From each esoteric passage, I've learned only that mystery",
+    "holds a thick cloak over our little world." // lr2
   `ENDNODE
   
   `NEW_NODE(INQUIRY_GOLEM, NUETRAL)
-    "Do not meddle with their slumber, %n.",
-    ""
+    "When you are met with a slumbering golem,",
+    "what's best is that their sleep never falters, %n."
   `ENDNODE
   
   // ----------------------------------------------------------------------- //
