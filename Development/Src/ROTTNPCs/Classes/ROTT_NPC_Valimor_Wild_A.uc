@@ -26,7 +26,7 @@ public function initDialogue() {
   
   // Intro
   `NEW_NODE(GREETING, NUETRAL)
-    "Are you born the sort of monster you are?",
+    ". . .",
     ""
   `ENDNODE
   
@@ -45,11 +45,6 @@ public function initDialogue() {
         ""
       `ENDNODE
 
-  ///`NEW_NODE(GREETING, NUETRAL)
-  ///  "Sunshine never reaches our rotting roots.",
-  ///  ""
-  ///`ENDNODE
-  
   // ----------------------------------------------------------------------- //
   
   setInquiry(
