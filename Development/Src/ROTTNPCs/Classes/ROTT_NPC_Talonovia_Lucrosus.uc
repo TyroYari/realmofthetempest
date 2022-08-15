@@ -27,111 +27,88 @@ public function initDialogue() {
   
   // Intro
   `NEW_NODE(INTRODUCTION, NUETRAL)
-    "With a sudden turn to the door, Lucrosus the Merchant drops",
-    "some coins to the floor. . ."
+    "With a sudden turn to the front door,",
+    "Lucrosus drops some coins to the floor."
+  `ENDNODE
+  setColor(DEFAULT_MEDIUM_GOLD);
+  
+  `NEW_NODE(INTRODUCTION, NUETRAL)
+    "The bear smells the air.",
+    ""
   `ENDNODE
   setColor(DEFAULT_MEDIUM_GOLD);
   
   // Intro
   `NEW_NODE(INTRODUCTION, NUETRAL)
-    "Well if it isn't a new spirit walker. . .",
+    "A new soldier of the stormlands here?",
     ""
   `ENDNODE
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
-    "The bear grunts briefly, tilting up and",
-    "sniffing the air."
+    "To shop, at our humble shop?",
+    ""
+  `ENDNODE
+  
+  `NEW_NODE(INTRODUCTION, NUETRAL)
+    "Well do come in love.",
+    ""
+  `ENDNODE
+  
+  `NEW_NODE(INTRODUCTION, NUETRAL)
+    "Our inventory grows with each new day.",
+    ""
+  `ENDNODE
+  
+  `NEW_NODE(INTRODUCTION, NUETRAL)
+    "But hey, listen.",
+    ""
+  `ENDNODE
+  
+  `NEW_NODE(INTRODUCTION, NUETRAL)
+    "The bear grunts briefly.",
+    ""
   `ENDNODE
   setColor(DEFAULT_MEDIUM_GOLD);
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
-    "Our wares blessed by the silver wind are nothing",
-    "but a humble gift to assist on your brave adventures." // ll1
-  `ENDNODE
-  
-  `NEW_NODE(INTRODUCTION, NUETRAL)
-    "Well, for a fee.",
+    "When you go out in the wilderness here. . .",
     "" 
   `ENDNODE
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
-    "The bear exhales powerfully.",
-    ""
+    "There is an obelisk that needs your",
+    "help with a messy ritual." 
+  `ENDNODE
+  
+  `NEW_NODE(INTRODUCTION, NUETRAL)
+    "An aura will be released that",
+    "protects us from harm." 
+  `ENDNODE
+  
+  `NEW_NODE(INTRODUCTION, NUETRAL)
+    "The bear whines and pushes some gold",
+    "coins across the tiled flooring loudly."
   `ENDNODE
   setColor(DEFAULT_MEDIUM_GOLD);
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
-    "Do you chase after currency?",
-    "" 
+    "With my shipments secured,",
+    "My income is secured as well."
   `ENDNODE
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
-    "The bear whines and pushes some.",
-    "gold coins across the floor."
+    "I am no fighter, but you may grace the",
+    "shrine with a careful psalm or two."
   `ENDNODE
-  setColor(DEFAULT_MEDIUM_GOLD);
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
-    "I don't. Why bother?",
+    "The books are there, in Rhunia's badland,",
+    "at the north citadel's tower."
+  `ENDNODE
+  
+  `NEW_NODE(INTRODUCTION, NUETRAL)
+    "Read them with purpose and a clear mind.",
     ""
-  `ENDNODE
-  
-  `NEW_NODE(INTRODUCTION, NUETRAL)
-    "Have you heard of this obelisk business?",
-    ""
-  `ENDNODE
-  
-    `ADD_OPTIONS(INTRODUCTION, NUETRAL)
-      "I have no idea.",
-      "I've heard that's an issue.",
-      "",
-      ""
-    `ENDNODE
-    
-      `ADD_REPLY(INTRODUCTION, NUETRAL, 0)
-        "We don't squabble for no reason, but the",
-        "Talonovian Council believes you'll help resolve the matter."
-      `ENDNODE
-    
-      `ADD_REPLY(INTRODUCTION, NUETRAL, 0)
-        "I don't have a solution, but a recommendation.",
-        "A suggestion unwise to refuse."
-      `ENDNODE
-    
-      `ADD_REPLY(INTRODUCTION, NUETRAL, 1)
-        "It isn't an issue, but you'll need to make",
-        "a decision."
-      `ENDNODE
-          
-      `ADD_REPLY(INTRODUCTION, NUETRAL, 1)
-        "I have nothing but a recommendation to suggest.",
-        ""
-      `ENDNODE
-          
-  `NEW_NODE(INTRODUCTION, NUETRAL)
-    "The bear glares directly at you.",
-    ""
-  `ENDNODE
-  setColor(DEFAULT_MEDIUM_GOLD);
-  
-  `NEW_NODE(INTRODUCTION, NUETRAL)
-    "That obelisk in Rhunia is an abandoned monument,",
-    "found in the citadel."
-  `ENDNODE
-  
-  `NEW_NODE(INTRODUCTION, NUETRAL)
-    "Praying at the shrine summons an immense flowing power,",
-    "crippling food production."
-  `ENDNODE
-  
-  `NEW_NODE(INTRODUCTION, NUETRAL)
-    "Supply and demand.  My business is nothing but",
-    "a matter of currency."
-  `ENDNODE
-  
-  `NEW_NODE(INTRODUCTION, NUETRAL)
-    "You've understood this request?",
-    "Good.  I don't have time to play games."
   `ENDNODE
   
   // ----------------------------------------------------------------------- //
@@ -159,42 +136,27 @@ public function initDialogue() {
   // ----------------------------------------------------------------------- //
   
   `NEW_NODE(INQUIRY_OBELISK, NUETRAL)
-    "The tome at the base of the obelisk in Rhunia's citadel",
-    "will summon a protective force when it is activated."
+    "An obelisk ritual creates an aura that",
+    "keeps our harbors safe from evil's grasp."
   `ENDNODE
   
   `NEW_NODE(INQUIRY_OBELISK, NUETRAL)
-    "Which also cripples food production. . . See?",
-    ""
-  `ENDNODE
-  
-  `NEW_NODE(INQUIRY_OBELISK, NUETRAL)
-    "Not the worst thing to exploit for profit. . . Right?",
+    "Stay safe champion.",
     ""
   `ENDNODE
   
   // ----------------------------------------------------------------------- //
   
   `NEW_NODE(INQUIRY_TOMB, NUETRAL)
-    "Those wretched blossoms will ruin me again.",
-    ""
-  `ENDNODE
-  
-  `NEW_NODE(INQUIRY_TOMB, NUETRAL)
-    "So I swear on the storms. . . Do not harvest that tomb.",
+    ". . .",
     ""
   `ENDNODE
   
   // ----------------------------------------------------------------------- //
   
   `NEW_NODE(INQUIRY_GOLEM, NUETRAL)
-    "Many fanatics believe that the golems hold",
-    "the secrets of our souls."
-  `ENDNODE
-  
-  `NEW_NODE(INQUIRY_GOLEM, NUETRAL)
-    "They would likely pay handsomely to visit",
-    "the golem of Talonovia."
+    ". . .",
+    ""
   `ENDNODE
   
   // ----------------------------------------------------------------------- //
@@ -252,6 +214,27 @@ defaultProperties
   end object
   npcSprites=NPC_Sprites
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
