@@ -26,8 +26,8 @@ public function initDialogue() {
   
   // Greeting
   `NEW_NODE(GREETING, NUETRAL)
-    "I'm an exorcismatographer, specializing in ancient",
-    "eidola extraction rituals."
+    ". . .",
+    ""
   `ENDNODE
   
   // ----------------------------------------------------------------------- //
