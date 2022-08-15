@@ -26,14 +26,14 @@ public function initDialogue() {
   
   // Intro
   `NEW_NODE(GREETING, NUETRAL)
-    "In a dusty library, a solemn figure reads from dirty tomes. . .",
-    ""
+    "In a dusty library, a solemn",
+    "child reads a dusty tome."
   `ENDNODE
   setColor(DEFAULT_MEDIUM_GOLD);
   
   `NEW_NODE(GREETING, NUETRAL)
-    "Witch-like peers are here to sing. . . ",
-    "What knots tie romance to strings."
+    "I'm writing in a diary about my life.",
+    ""
   `ENDNODE
   
   // ----------------------------------------------------------------------- //
