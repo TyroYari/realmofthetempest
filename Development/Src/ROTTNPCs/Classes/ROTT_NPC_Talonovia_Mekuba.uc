@@ -28,8 +28,8 @@ public function initDialogue() {
   
   // Intro
   `NEW_NODE(INTRODUCTION, NUETRAL)
-    "Mekuba the Necromancer stands still, like unplugged machinery. . .",
-    ""
+    "Mekuba the necromancer stands still like",
+    "unplugged machinery from another realm."
   `ENDNODE
   setColor(DEFAULT_MEDIUM_GOLD);
   
@@ -40,7 +40,7 @@ public function initDialogue() {
   
     `ADD_OPTIONS(INTRODUCTION, NUETRAL)
       "Hello?",
-      "Maybe I'll just leave. . .",
+      "Maybe I'll leave here now. . .",
       "",
       "",
       
@@ -49,23 +49,23 @@ public function initDialogue() {
     `ENDNODE
     
       `ADD_REPLY(INTRODUCTION, NUETRAL, 0)
-        "What do you seek?",
+        "I am the watcher of the damned, Lord of",
+        "the nether's library."
+      `ENDNODE
+    
+      `ADD_REPLY(INTRODUCTION, NUETRAL, 0)
+        "You stand before the smith of",
+        "flesh and bone, Mekuba."
+      `ENDNODE
+    
+      `ADD_REPLY(INTRODUCTION, NUETRAL, 0)
+        "Necromancy is not a profession, but",
+        "a sacred birthright."
+      `ENDNODE
+    
+      `ADD_REPLY(INTRODUCTION, NUETRAL, 0)
+        "What do you need?",
         ""
-      `ENDNODE
-    
-      `ADD_REPLY(INTRODUCTION, NUETRAL, 0)
-        "I am watcher of the damned, lord of rot. . .",
-        "You speak now to Mekuba."
-      `ENDNODE
-    
-      `ADD_REPLY(INTRODUCTION, NUETRAL, 0)
-        "Necromancy, this is not a profession,",
-        "but a birthright."
-      `ENDNODE
-    
-      `ADD_REPLY(INTRODUCTION, NUETRAL, 0)
-        "Speaking with the dead.",
-        "That is what I do."
       `ENDNODE
     
   // ----------------------------------------------------------------------- //
@@ -93,46 +93,26 @@ public function initDialogue() {
   // ----------------------------------------------------------------------- //
   
   `NEW_NODE(INQUIRY_OBELISK, NUETRAL)
-    "The hand of death has infinite reach,",
-    "well beyond the top of any tower."
+    "There is no obelisk conflict.",
+    ""
   `ENDNODE
   
   `NEW_NODE(INQUIRY_OBELISK, NUETRAL)
-    "Dare not taunt the underworld.",
-    "Leave the obelisk at rest."
+    "You'll perform no ritual.",
+    ""
   `ENDNODE
   
   // ----------------------------------------------------------------------- //
   
   `NEW_NODE(INQUIRY_TOMB, NUETRAL)
-    "The dead are not for you to disturb, %n.",
-    ""
-  `ENDNODE
-  
-  `NEW_NODE(INQUIRY_TOMB, NUETRAL)
-    "The dead belong to me.",
+    ". . .",
     ""
   `ENDNODE
   
   // ----------------------------------------------------------------------- //
   
   `NEW_NODE(INQUIRY_GOLEM, NUETRAL)
-    "A golem never lives, and never dies.",
-    ""
-  `ENDNODE
-  
-  `NEW_NODE(INQUIRY_GOLEM, NUETRAL)
-    "They wait, and they watch.",
-    ""
-  `ENDNODE
-  
-  `NEW_NODE(INQUIRY_GOLEM, NUETRAL)
-    "The chains that hold the golem's breath",
-    "obstruct us from what's hiding in our history."
-  `ENDNODE
-  
-  `NEW_NODE(INQUIRY_GOLEM, NUETRAL)
-    "Release them, so you may learn from their mysteries.",
+    ". . .",
     ""
   `ENDNODE
   
@@ -190,6 +170,26 @@ defaultProperties
   end object
   npcSprites=NPC_Sprites
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
