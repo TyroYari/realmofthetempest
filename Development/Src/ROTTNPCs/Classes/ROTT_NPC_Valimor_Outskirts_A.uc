@@ -26,14 +26,8 @@ public function initDialogue() {
   
   // Intro
   `NEW_NODE(GREETING, NUETRAL)
-    "A figure lurks in the shadows. . .",
+    "Sunshine never reaches our rotting roots.",
     ""
-  `ENDNODE
-  setColor(DEFAULT_MEDIUM_GOLD);
-  
-  `NEW_NODE(GREETING, NUETRAL)
-    "This entire realm is a dance",
-    "between order. . . and chaos."
   `ENDNODE
   
   // ----------------------------------------------------------------------- //
