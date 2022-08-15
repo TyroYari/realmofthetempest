@@ -26,8 +26,8 @@ public function initDialogue() {
   
   // Intro
   `NEW_NODE(GREETING, NUETRAL)
-    "Tailoring sacred ribbons. . .",
-    "May I help you?"
+    "Tailor of sacred cloth,",
+    "selling ribbons here."
   `ENDNODE
   
     `ADD_OPTIONS(GREETING, NUETRAL)
