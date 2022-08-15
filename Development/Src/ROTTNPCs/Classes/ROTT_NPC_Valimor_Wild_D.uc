@@ -24,16 +24,9 @@ class ROTT_NPC_Valimor_Wild_D extends ROTT_NPC_Container;
 public function initDialogue() {
   super.initDialogue();
   
-  /// Matthew 8:24
-  
   // Intro
   `NEW_NODE(GREETING, NUETRAL)
-    "Integrate us, in spirals. . . Cycling the land. . .",
-    "crossing ideas of small paradoxes. . ."
-  `ENDNODE
-  
-  `NEW_NODE(GREETING, NUETRAL)
-    "Miraculously, dreaming like this. . . stills the tempest.",
+    ". . .",
     ""
   `ENDNODE
   
