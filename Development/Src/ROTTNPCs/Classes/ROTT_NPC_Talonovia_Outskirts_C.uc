@@ -26,22 +26,12 @@ public function initDialogue() {
   
   // Greeting
   `NEW_NODE(GREETING, NUETRAL)
-    "Welcome to the campsite, shy one.",
+    "I'm reading Gwardean Angle Theory.",
     ""
   `ENDNODE
   
   `NEW_NODE(GREETING, NUETRAL)
-    "Is this my space?",
-    ""
-  `ENDNODE
-  
-  `NEW_NODE(GREETING, NUETRAL)
-    "I spy matches. . . through the mystics heap. . .",
-    "Thy escapism. . . through peachy mists. . ."
-  `ENDNODE
-  
-  `NEW_NODE(GREETING, NUETRAL)
-    "Is this my space?",
+    "It's math from heaven.",
     ""
   `ENDNODE
   
@@ -83,7 +73,7 @@ defaultProperties
   
   // NPC Texture
   begin object class=UI_Texture_Info Name=NPC_Sprite_Texture
-    componentTextures.add(Texture2D'NPCs.Princes.NPC_Portrait_Prince_Purple_360')
+    componentTextures.add(Texture2D'NPCs.Princes.NPC_Portrait_Prince_Blue_360')
   end object
   
   // Sprite container for transfer
