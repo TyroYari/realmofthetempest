@@ -26,7 +26,7 @@ public function initDialogue() {
   
   // Intro
   `NEW_NODE(GREETING, NUETRAL)
-    "Holy winds guide us, traveler. . .",
+    "Rise up.",
     ""
   `ENDNODE
   
