@@ -26,12 +26,28 @@ public function initDialogue() {
   
   // Intro
   `NEW_NODE(GREETING, NUETRAL)
-    "The taste of medicine brings a light up to your eye.",
+    "Amber resin drips from the roof",
+    "of the house."
+  `ENDNODE
+  setColor(DEFAULT_MEDIUM_GOLD);
+	
+  `NEW_NODE(GREETING, NUETRAL)
+    "Horsemen falling off their stallions.",
     ""
   `ENDNODE
   
   `NEW_NODE(GREETING, NUETRAL)
-    "And when it was meant to shrink, my pupil opens wide.",
+    "Psychic maiden's crafting mallet.",
+    ""
+  `ENDNODE
+  
+  `NEW_NODE(GREETING, NUETRAL)
+    "Forging foriegn waves of balance.",
+    ""
+  `ENDNODE
+  
+  `NEW_NODE(GREETING, NUETRAL)
+    "We live inside a dream.",
     ""
   `ENDNODE
   
