@@ -26,8 +26,29 @@ public function initDialogue() {
   
   // Intro
   `NEW_NODE(GREETING, NUETRAL)
-    "By the tremble in my voice, you can tell its not my own.",
-    ""
+    "A strange figure mutters through",
+    "a mouth of sticky tentacles."
+  `ENDNODE
+  setColor(DEFAULT_MEDIUM_GOLD);
+	
+  `NEW_NODE(GREETING, NUETRAL)
+    "The herds of creatures crawling",
+    "all across the field."
+  `ENDNODE
+  
+  `NEW_NODE(GREETING, NUETRAL)
+    "Cults and rebels fighting while the",
+    "desperate sneak and steal."
+  `ENDNODE
+  
+  `NEW_NODE(GREETING, NUETRAL)
+    "Woe is the land,",
+    "built upon the dead."
+  `ENDNODE
+  
+  `NEW_NODE(GREETING, NUETRAL)
+    "Woe is the sea,",
+    "stained below our beds."
   `ENDNODE
   
   // ----------------------------------------------------------------------- //
