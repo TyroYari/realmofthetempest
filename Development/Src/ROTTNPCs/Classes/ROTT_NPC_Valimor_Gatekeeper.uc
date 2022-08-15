@@ -26,8 +26,28 @@ public function initDialogue() {
   
   // Intro
   `NEW_NODE(GREETING, NUETRAL)
-    "SUDEVA EK WALL ZAVU MY NUS SUVADU.",
+    "Our planet breathes.",
     ""
+  `ENDNODE
+  
+  `NEW_NODE(GREETING, NUETRAL)
+    "Salt stained with blood on the throne",
+    "of the high king."
+  `ENDNODE
+  
+  `NEW_NODE(GREETING, NUETRAL)
+    "Gold ribbons shredded through",
+    "the dark halls."
+  `ENDNODE
+  
+  `NEW_NODE(GREETING, NUETRAL)
+    "Murmers from the dead.",
+    "Rise up! Rise up!"
+  `ENDNODE
+  
+  `NEW_NODE(GREETING, NUETRAL)
+    "For now is your time to meet",
+    "oblivion's gate."
   `ENDNODE
   
   // ----------------------------------------------------------------------- //
