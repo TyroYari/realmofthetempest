@@ -26,8 +26,23 @@ public function initDialogue() {
   
   // Intro
   `NEW_NODE(GREETING, NUETRAL)
-    "With the roots as my feet, and wings off my back.",
-    "I'm as the priestess was, an angel of the dirt."
+    "Spirits talking, Spirits talking.",
+    ""
+  `ENDNODE
+  
+  `NEW_NODE(GREETING, NUETRAL)
+    "I am but a channeling call from the",
+    "ethereal stream."
+  `ENDNODE
+  
+  `NEW_NODE(GREETING, NUETRAL)
+    "With roots at my feet,",
+    "and wings off my back,"
+  `ENDNODE
+  
+  `NEW_NODE(GREETING, NUETRAL)
+    "I'm as the priestess was,",
+    "an angel here from the dirt."
   `ENDNODE
   
   // ----------------------------------------------------------------------- //
