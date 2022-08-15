@@ -26,51 +26,10 @@ public function initDialogue() {
   
   // Intro
   `NEW_NODE(GREETING, NUETRAL)
-    "A dozen frantic crows pass overhead, now squawking in the distance. . .",
+    ". . .",
     ""
   `ENDNODE
-  setColor(DEFAULT_MEDIUM_GOLD);
-  
-  `NEW_NODE(GREETING, NUETRAL)
-    "I've read the Cipher of Six and Spirit, a forbidden text.",
-    ""
-  `ENDNODE
-  
-  `NEW_NODE(GREETING, NUETRAL)
-    "Now every time I've knelt beside my bed in prayer,",
-    "I. . . I. . . I lose myself, as if I've fallen asleep."
-  `ENDNODE
-  
-  `NEW_NODE(GREETING, NUETRAL)
-    "I can never remember my prayers.",
-    ""
-  `ENDNODE
-  
-  `NEW_NODE(GREETING, NUETRAL)
-    "When I've embraced my loved ones,",
-    "again I've felt my mind just. . . washes away."
-  `ENDNODE
-  
-  `NEW_NODE(GREETING, NUETRAL)
-    "I can never remember touch.",
-    ""
-  `ENDNODE
-  
-  `NEW_NODE(GREETING, NUETRAL)
-    "My. . . My-My mind has lost its link to heaven and body!",
-    ""
-  `ENDNODE
-  
-  `NEW_NODE(GREETING, NUETRAL)
-    "Memory of hope and affection leak from me!",
-    ""
-  `ENDNODE
-  
-  `NEW_NODE(GREETING, NUETRAL)
-    "I'm begging now. . . Please kill me.",
-    ""
-  `ENDNODE
-  
+	
   // ----------------------------------------------------------------------- //
   
   setInquiry(
