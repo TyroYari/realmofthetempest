@@ -26,15 +26,41 @@ public function initDialogue() {
   
   // Greeting
   `NEW_NODE(GREETING, NUETRAL)
-    "Empathy six. . . mystic shape four. . .",
+    "A busy alchemist is rambling at a chemist's table.",
+    ""
+  `ENDNODE
+  setColor(DEFAULT_MEDIUM_GOLD);
+	
+  `NEW_NODE(GREETING, NUETRAL)
+    "There is no need to repeat yourself.",
     ""
   `ENDNODE
   
   `NEW_NODE(GREETING, NUETRAL)
-    "Oh, hello there.",
+    "There is no need to repeat yourself.",
     ""
   `ENDNODE
   
+  `NEW_NODE(GREETING, NUETRAL)
+    "There is no need for repeating yourself.",
+    ""
+  `ENDNODE
+  
+    `ADD_OPTIONS(GREETING, NUETRAL)
+      "Alchemy",
+      "Inquiry",
+      "",
+      "",
+      
+      BEHAVIOR_LAUNCH_SERVICE,
+      BEHAVIOR_NONE
+    `ENDNODE
+    
+      `ADD_REPLY(GREETING, NUETRAL, 0)
+        "(Service unavailable in this version)",
+        ""
+      `ENDNODE
+    
   // ----------------------------------------------------------------------- //
   
   setInquiry(
@@ -58,6 +84,7 @@ defaultProperties
 {
   // NPC identity
   npcName=GENERIC
+  serviceType=SERVICE_ALCHEMY
   
   // Background
   begin object class=UI_Texture_Info Name=NPC_Background_Texture
