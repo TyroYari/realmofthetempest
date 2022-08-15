@@ -26,8 +26,8 @@ public function initDialogue() {
   
   // Greeting
   `NEW_NODE(GREETING, NUETRAL)
-    "A chemist pays for mystic phases.",
-    ""
+    "A chemist plays with mystic phrases,",
+    "lit like a candle's wick."
   `ENDNODE
   
     `ADD_OPTIONS(GREETING, NUETRAL)
