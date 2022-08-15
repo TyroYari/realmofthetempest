@@ -24,32 +24,15 @@ class ROTT_NPC_Valimor_Backlands_C extends ROTT_NPC_Container;
 public function initDialogue() {
   super.initDialogue();
   
-  /// who lives in a pineapple under the sea
-  
   // Intro
   `NEW_NODE(GREETING, NUETRAL)
-    "Ohhhhhhhhh. . . . . .",
+    "I'm breathing under the moonlit ocean.",
     ""
   `ENDNODE
   
   `NEW_NODE(GREETING, NUETRAL)
-    "Whirled hell. . . Disorganized dyes. . .",
-    ""
-  `ENDNODE
-  
-  `NEW_NODE(GREETING, NUETRAL)
-    "Be rational. . . Orange over the land. . .",
-    ""
-  `ENDNODE
-  
-  `NEW_NODE(GREETING, NUETRAL)
-    "Grunge. . . Stops. . .",
-    ""
-  `ENDNODE
-  
-  `NEW_NODE(GREETING, NUETRAL)
-    "Stare. . . Dance. . .",
-    ""
+    "I'm limping across the wasteland",
+    "with no hand to hold."
   `ENDNODE
   
   // ----------------------------------------------------------------------- //
@@ -90,7 +73,7 @@ defaultProperties
   
   // NPC Texture
   begin object class=UI_Texture_Info Name=NPC_Sprite
-    componentTextures.add(Texture2D'Monsters_Disc_2.Enemy_Portrait_Watcher_Purple_360')
+    componentTextures.add(Texture2D'NPCs.Princes.NPC_Portrait_Prince_Purple_360')
   end object
   
   // Sprite container for transfer
