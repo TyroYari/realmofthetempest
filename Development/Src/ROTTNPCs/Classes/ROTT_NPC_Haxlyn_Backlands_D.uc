@@ -16,9 +16,6 @@ class ROTT_NPC_Haxlyn_Backlands_D extends ROTT_NPC_Container;
 
 `DEFINE ENDNODE );
 
-/// SeeHolyNightRedVeilTest
-/// Everylittlethingshedoes
-
 /*=============================================================================
  * initDialogue()
  * 
@@ -29,7 +26,7 @@ public function initDialogue() {
   
   // Intro
   `NEW_NODE(GREETING, NUETRAL)
-    "The fogs rolling in. . .",
+    "The fogs rolling through. . .",
     ""
   `ENDNODE
   
