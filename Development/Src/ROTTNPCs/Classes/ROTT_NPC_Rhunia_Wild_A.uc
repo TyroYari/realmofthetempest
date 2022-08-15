@@ -26,38 +26,7 @@ public function initDialogue() {
   
   // Intro
   `NEW_NODE(GREETING, NUETRAL)
-    "A stubborn cyclops guards his home. . .",
-    ""
-  `ENDNODE
-  setColor(DEFAULT_MEDIUM_GOLD);
-  
-  `NEW_NODE(GREETING, NUETRAL)
-    "This rancid dreamscape ripped through reality",
-    "when nine forbidden texts began circulating the realm."
-  `ENDNODE
-  
-  `NEW_NODE(GREETING, NUETRAL)
-    "We watched as fantasies became realities.",
-    ""
-  `ENDNODE
-  
-  `NEW_NODE(GREETING, NUETRAL)
-    "Fantasy is a part of reality. . . Because",
-    "illusion exists in reality. . ."
-  `ENDNODE
-  
-  `NEW_NODE(GREETING, NUETRAL)
-    "If illusion itself were an illusion. . . then",
-    "everything would be reality."
-  `ENDNODE
-  
-  `NEW_NODE(GREETING, NUETRAL)
-    "In this surreal nightmare under the fallen kingdoms,",
-    "we sleep only in death, and dream only in delusions."
-  `ENDNODE
-  
-  `NEW_NODE(GREETING, NUETRAL)
-    "We. . . are the waste of fantasy.",
+    ". . .",
     ""
   `ENDNODE
   
