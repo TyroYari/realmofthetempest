@@ -26,6 +26,12 @@ public function initDialogue() {
   
   // Intro
   `NEW_NODE(GREETING, NUETRAL)
+    "A grumpy elder is",
+    "sluggishly shuffling about."
+  `ENDNODE
+  setColor(DEFAULT_MEDIUM_GOLD);
+	
+  `NEW_NODE(GREETING, NUETRAL)
     "The future has already forgotten me.",
     ""
   `ENDNODE
@@ -56,7 +62,7 @@ defaultProperties
   
   // Background
   begin object class=UI_Texture_Info Name=NPC_Background_Texture
-    componentTextures.add(Texture2D'GUI_NPC_Dialog.NPC_Background_Dark_Gray'
+    componentTextures.add(Texture2D'GUI_NPC_Dialog.NPC_Background_Green'
   end object
   
   // Sprite container for transfer
