@@ -24,23 +24,10 @@ class ROTT_NPC_Haxlyn_Backlands_B extends ROTT_NPC_Container;
 public function initDialogue() {
   super.initDialogue();
   
-  /// Belle Boggs, "I was twenty-two, twenty-three." page 32
-  
   // Intro
   `NEW_NODE(GREETING, NUETRAL)
-    "Thirty-two bell chimes dangle in the wind",
-    "of a nearby bog."
-  `ENDNODE
-  setColor(DEFAULT_MEDIUM_GOLD);
-  
-  `NEW_NODE(GREETING, NUETRAL)
-    "Ear a cheat, white newt. . .  Out white newt. . .",
-    "Saw the eye through. . ."
-  `ENDNODE
-  
-  `NEW_NODE(GREETING, NUETRAL)
-    "Sewing needles. . . sewing needles. . .",
-    "Kids with fathers. . . Ooh. . ."
+    ". . .",
+    ""
   `ENDNODE
   
   // ----------------------------------------------------------------------- //
