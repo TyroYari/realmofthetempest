@@ -26,18 +26,18 @@ public function initDialogue() {
   
   // Intro
   `NEW_NODE(GREETING, NUETRAL)
-    "The reading of a passage from any ordinary text",
-    "is rightfully concomitant to the passage of time."
+    "The reading of a passage from any ordinary text is",
+    "naturally concomitant with clocks passing through time."
   `ENDNODE
   
   `NEW_NODE(GREETING, NUETRAL)
-    "But the accursed writings of \"The Dread Llyr's Sins\" blind",
-    "the mind from the temporal river."
+    "But the accursed writings of the Dread",
+    "Llyr's Sins blind the mind from the temporal rivers."
   `ENDNODE
   
   `NEW_NODE(GREETING, NUETRAL)
-    "No one drowns from one sip,",
-    "yet a morbid epoch waits in one glance"
+    "No one drowns with one sip, yet a morbid epoch",
+    "waits in one glance."
   `ENDNODE
   
 
@@ -79,7 +79,7 @@ defaultProperties
   
   // NPC Texture
   begin object class=UI_Texture_Info Name=NPC_Sprite_Texture
-    componentTextures.add(Texture2D'NPCs.Witches.NPC_Portrait_Witch_Black_360')
+    componentTextures.add(Texture2D'NPCs.Necromancers.NPC_Portrait_Necromancer_Green_360')
   end object
   
   // Sprite container for transfer
