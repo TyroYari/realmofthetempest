@@ -27,12 +27,12 @@ public function initDialogue() {
   // Greeting
   `NEW_NODE(GREETING, NUETRAL)
     "The frigid clasp of the ice tome breaks only here,",
-    "in the heart of this forsaken temple."
+    "in the heart of this forsaken temple's house."
   `ENDNODE
   
   `NEW_NODE(GREETING, NUETRAL)
-    "Rhunia, goddess of nature's cruelty,",
-    "obey desire as your birthright and devour my soul."
+    "Rhunia, goddess of nature's cruelty, obey desire as",
+    "your birthright and devour my soul now."
   `ENDNODE
   
   setInquiry(
