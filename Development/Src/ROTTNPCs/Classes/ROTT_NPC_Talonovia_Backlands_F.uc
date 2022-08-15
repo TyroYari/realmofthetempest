@@ -26,25 +26,10 @@ public function initDialogue() {
   
   // Greeting
   `NEW_NODE(GREETING, NUETRAL)
-    "Have you seen the triangular prism guarding",
-    "the wind around Talonovia's Harbor?"
+    "In the beginning God created",
+    "the nether and the swirls."
   `ENDNODE
-  
-  `NEW_NODE(GREETING, NUETRAL)
-    "Notice too how the prism's hold dissipates",
-    "out here, in the backlands."
-  `ENDNODE
-  
-  `NEW_NODE(GREETING, NUETRAL)
-    "The farther out the land extends from this",
-    "calming shape. . ."
-  `ENDNODE
-  
-  `NEW_NODE(GREETING, NUETRAL)
-    "The more likely danger becomes. Beware,",
-    "the swirling of the tempest, young traveller. . ."
-  `ENDNODE
-  
+	
   // ----------------------------------------------------------------------- //
   
   setInquiry(
