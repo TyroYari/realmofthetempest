@@ -26,14 +26,19 @@ public function initDialogue() {
   
   // Intro
   `NEW_NODE(GREETING, NUETRAL)
-    "Motionless like a statue, a spirit speaks telepathically. . .",
-    ""
+    "Motionless like a statue, a spirit",
+    "speaks telepathically."
   `ENDNODE
   setColor(DEFAULT_MEDIUM_GOLD);
   
   `NEW_NODE(GREETING, NUETRAL)
     "Bow to the ethereal hand of eternity!",
-    ""
+    "Foolish mortal!"
+  `ENDNODE
+  
+  `NEW_NODE(GREETING, NUETRAL)
+    "Or forever drown in ethereal things, like",
+    "wicked thieves."
   `ENDNODE
   
   // ----------------------------------------------------------------------- //
@@ -62,7 +67,7 @@ defaultProperties
   
   // Background
   begin object class=UI_Texture_Info Name=NPC_Background_Texture
-    componentTextures.add(Texture2D'GUI_NPC_Dialog.NPC_Background_Dark_Gray'
+    componentTextures.add(Texture2D'GUI_NPC_Dialog.NPC_Background_Blue'
   end object
   
   // Sprite container for transfer
