@@ -26,33 +26,8 @@ public function initDialogue() {
   
   // Intro
   `NEW_NODE(GREETING, NUETRAL)
-    "The collapse of our kingdoms came from the creation",
-    "of books and magical tomes."
-  `ENDNODE
-  
-  `NEW_NODE(GREETING, NUETRAL)
-    "Books were a catalyst for knowledge.",
+    ". . .",
     ""
-  `ENDNODE
-  
-  `NEW_NODE(GREETING, NUETRAL)
-    "And knowledge brought forth magick.",
-    ""
-  `ENDNODE
-  
-  `NEW_NODE(GREETING, NUETRAL)
-    "Magick granted us growth, but with it came",
-    "an unforgiving complexity."
-  `ENDNODE
-  
-  `NEW_NODE(GREETING, NUETRAL)
-    "Like hunters gifted with motion swifter than",
-    "their legs' pace, we have fallen."
-  `ENDNODE
-  
-  `NEW_NODE(GREETING, NUETRAL)
-    "And that juxtaposition of growth and decay in",
-    "society is not unlike the struggle within oneself."
   `ENDNODE
   
   // ----------------------------------------------------------------------- //
