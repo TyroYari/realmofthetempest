@@ -26,24 +26,19 @@ public function initDialogue() {
   
   // Intro
   `NEW_NODE(GREETING, NUETRAL)
-    "The smell of burnt spices floods the room. . .",
-    ""
+    "The smell of burnt spices floods the room",
+    "and spills out the house."
   `ENDNODE
   setColor(DEFAULT_MEDIUM_GOLD);
   
   `NEW_NODE(GREETING, NUETRAL)
-    "To own is to control, and",
-    "to lack control is to tremble."
-  `ENDNODE
-  
-  `NEW_NODE(GREETING, NUETRAL)
-    "So you see, only lives lacking heart rise to power.",
+    "Mother nature?",
     ""
   `ENDNODE
   
   `NEW_NODE(GREETING, NUETRAL)
-    "For a heart only beats in its fear of death,",
-    "and that pulse is a tremble of its own."
+    "Nineteen lakes of nether fire is no work",
+    "from a mother."
   `ENDNODE
   
   // ----------------------------------------------------------------------- //
@@ -72,7 +67,7 @@ defaultProperties
   
   // Background
   begin object class=UI_Texture_Info Name=NPC_Background_Texture
-    componentTextures.add(Texture2D'GUI_NPC_Dialog.NPC_Background_Dark_Gray'
+    componentTextures.add(Texture2D'GUI_NPC_Dialog.NPC_Background_Blue'
   end object
   
   // Sprite container for transfer
@@ -84,7 +79,7 @@ defaultProperties
   
   // NPC Texture
   begin object class=UI_Texture_Info Name=NPC_Sprite_Texture
-    componentTextures.add(Texture2D'NPCs.Witches.NPC_Portrait_Witch_Red_360')
+    componentTextures.add(Texture2D'NPCs.Princes.NPC_Portrait_Prince_Blue_360')
   end object
   
   // Sprite container for transfer
