@@ -26,41 +26,10 @@ public function initDialogue() {
   
   // Intro
   `NEW_NODE(GREETING, NUETRAL)
-    "A disoriented man is becoming a zombie. . .",
+    ". . .",
     ""
   `ENDNODE
-  setColor(DEFAULT_MEDIUM_GOLD);
-  
-  `NEW_NODE(GREETING, NUETRAL)
-    "After starving myself for six days. . .",
-    "Like the locksmith did in Lesser Oblivion. . ."
-  `ENDNODE
-  
-  `NEW_NODE(GREETING, NUETRAL)
-    "The soul suffers separation sickness, while",
-    "my shell laments for the loss of clarity."
-  `ENDNODE
-  
-  `NEW_NODE(GREETING, NUETRAL)
-    "But now, when my mind's eye wanders,",
-    "images appear."
-  `ENDNODE
-  
-  `NEW_NODE(GREETING, NUETRAL)
-    ". . . Seemingly separate from my own cognition.",
-    ""
-  `ENDNODE
-  
-  `NEW_NODE(GREETING, NUETRAL)
-    "And when these visions appear. . .",
-    ""
-  `ENDNODE
-  
-  `NEW_NODE(GREETING, NUETRAL)
-    "I pray. . .",
-    ""
-  `ENDNODE
-  
+	
   // ----------------------------------------------------------------------- //
   
   setInquiry(
