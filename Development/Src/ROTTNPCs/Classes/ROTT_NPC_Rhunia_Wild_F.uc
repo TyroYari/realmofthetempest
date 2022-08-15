@@ -26,24 +26,19 @@ public function initDialogue() {
   
   // Intro
   `NEW_NODE(GREETING, NUETRAL)
-    "The air reeks of something foul and spoiled. . .",
-    ""
+    "The air reeks of something foul and",
+    "spoiled."
   `ENDNODE
   setColor(DEFAULT_MEDIUM_GOLD);
   
   `NEW_NODE(GREETING, NUETRAL)
-    "I'm banished here for having read a forbidden writing. . .",
-    ""
+    "I am banished here for reading a forbidden writing,",
+    "the Black Water Scripture."
   `ENDNODE
   
   `NEW_NODE(GREETING, NUETRAL)
-    "The Black Water Script.",
-    ""
-  `ENDNODE
-  
-  `NEW_NODE(GREETING, NUETRAL)
-    "What rippled through that pool of ink was a glare",
-    "both harsh and. . . unforgiving."
+    "What ripples in that pool of ink is",
+    "a harsh and unforgiving glare."
   `ENDNODE
   
   // ----------------------------------------------------------------------- //
