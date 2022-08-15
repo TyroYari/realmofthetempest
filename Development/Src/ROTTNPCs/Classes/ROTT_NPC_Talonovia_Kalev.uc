@@ -27,41 +27,46 @@ public function initDialogue() {
   
   // Intro
   `NEW_NODE(INTRODUCTION, NUETRAL)
-    "Kalev the Prince is busy reading, and avoids eye contact. . .",
-    ""
+    "Kalev the Prince is busy reading, and avoids",
+    "looking up."
   `ENDNODE
   setColor(DEFAULT_MEDIUM_GOLD);
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
-    "Hi.  You're not the first stranger to pop up here",
-    "at my house." 
+    "This here harbor is",
+    "part of Talonovia's kingdom." 
   `ENDNODE
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
-    "The mystical gates of this harbor were woven", 
-    "by ancient sages for us to act as our nexus across the realm."
+    "In the past there were collectively",
+    "seven grand kingdoms." 
   `ENDNODE
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
-    "I am formerly a prince of royal blood, but my kingdom is lost in chaos.",
-    "Named by the emperor at birth. . . I'm addressed as Kalev."
+    "I'm the former royal prince of a",
+    "destroyed kingdom." 
   `ENDNODE
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
-    "The gate to Rhunia will lead you on your journey to a forsaken citadel, where",
-    "if your courage permits, you'll find an obelisk." 
+    "All but the Talonovian region have",
+    "been corrupted by evil." 
   `ENDNODE
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
-    "I do not play with magick.",
-    "I would not engage the obelisk."
+    "Special monuments have been abandoned out there,",
+    "as they should be in these times of calamity." 
+  `ENDNODE
+  
+  `NEW_NODE(INTRODUCTION, NUETRAL)
+    "Despite what others say, you must never touch",
+    "the obelisk of Rhunia's badland, up north." 
   `ENDNODE
   
   // ----------------------------------------------------------------------- //
   
   `NEW_NODE(GREETING, NUETRAL)
-    "You're just in time for cider and short bread, %n.",
-    "I do not mind sharing."
+    "Hello champion.",
+    ""
   `ENDNODE
   
     `ADD_OPTIONS(GREETING, NUETRAL)
@@ -82,127 +87,32 @@ public function initDialogue() {
   // ----------------------------------------------------------------------- //
   
   `NEW_NODE(INQUIRY_OBELISK, NUETRAL)
-    "Not every pillar of protection is a step toward salvation.",
+    "Well, the obelisks are shunned.",
     ""
   `ENDNODE
   
   `NEW_NODE(INQUIRY_OBELISK, NUETRAL)
-    "The aura of the obelisk exerts pressure on",
-    "more than just our enemies."
+    "An obelisk ritual creates an aura that",
+    "slows food production for our humbled harbor."
   `ENDNODE
   
   `NEW_NODE(INQUIRY_OBELISK, NUETRAL)
-    "It weighs against the breath of nature, the nourishment",
-    "of the living, and the vigor of young minds."
-  `ENDNODE
-  
-  `NEW_NODE(INQUIRY_OBELISK, NUETRAL)
-    "The obelisk is a burden, disguised by hope and desperation.",
-    "Its aura should remain muted."
+    "It's really no good.",
+    ""
   `ENDNODE
   
   // ----------------------------------------------------------------------- //
   
   `NEW_NODE(INQUIRY_TOMB, NUETRAL)
-    "Before the era of descent, an unwavering sense",
-    "of loyalty tied together all the great kingdoms."
+    ". . .",
+    ". . ."
   `ENDNODE
-  
-  `NEW_NODE(INQUIRY_TOMB, NUETRAL)
-    "The harmony of these kingdoms became lost when servents",
-    "from the house that held no citadel released the forbidden books."
-  `ENDNODE
-  
-  `NEW_NODE(INQUIRY_TOMB, NUETRAL)
-    "Losing Haxlyn hurt worst of all. . .",
-    ""
-  `ENDNODE
-  
-  `NEW_NODE(INQUIRY_TOMB, NUETRAL)
-    "A valiant priestess is buried there on Haxlyn's holy ground,",
-    "with her tomb adorned by blossoms infused with purity and valor."
-  `ENDNODE
-  
-  `NEW_NODE(INQUIRY_TOMB, NUETRAL)
-    "It is a sacred place that should not be disturbed.",
-    ""
-  `ENDNODE
-  
+	
   // ----------------------------------------------------------------------- //
   
   `NEW_NODE(INQUIRY_GOLEM, NUETRAL)
-    "Long ago, before the building of our kingdoms,",
-    "our ancestors lived in Ix land."
-  `ENDNODE
-  
-  `NEW_NODE(INQUIRY_GOLEM, NUETRAL)
-    "Ix land is where the Vixbane and Nix wood clans",
-    "once banished the nine forbidden texts."
-  `ENDNODE
-  
-  `NEW_NODE(INQUIRY_GOLEM, NUETRAL)
-    "The Cipher of Six and Spirit,",
+    ". . .",
     ""
-  `ENDNODE
-  
-  `NEW_NODE(INQUIRY_GOLEM, NUETRAL)
-    "The Red Codex,",
-    ""
-  `ENDNODE
-  
-  `NEW_NODE(INQUIRY_GOLEM, NUETRAL)
-    "The Nightmyrius Doctrine,",
-    ""
-  `ENDNODE
-  
-  `NEW_NODE(INQUIRY_GOLEM, NUETRAL)
-    "The Lunar Credo,",
-    ""
-  `ENDNODE
-  
-  `NEW_NODE(INQUIRY_GOLEM, NUETRAL)
-    "The Grimoire of the Nix Wood Priest,",
-    ""
-  `ENDNODE
-  
-  `NEW_NODE(INQUIRY_GOLEM, NUETRAL)
-    "The Dread Llyr's Sins,",
-    ""
-  `ENDNODE
-  
-  `NEW_NODE(INQUIRY_GOLEM, NUETRAL)
-    "The Heretics Coil,",
-    ""
-  `ENDNODE
-  
-  `NEW_NODE(INQUIRY_GOLEM, NUETRAL)
-    "The Black Water Script,",
-    ""
-  `ENDNODE
-  
-  `NEW_NODE(INQUIRY_GOLEM, NUETRAL)
-    "And the three volumes of Oblivion: Lesser Oblivion,",
-    "Greater Oblivion, and Final Oblivion."
-  `ENDNODE
-  
-  `NEW_NODE(INQUIRY_GOLEM, NUETRAL)
-    "When our kingdoms were built, each received a holy citadel,",
-    "except one."
-  `ENDNODE
-  
-  `NEW_NODE(INQUIRY_GOLEM, NUETRAL)
-    "Those who served the house with no citadel became bitter,",
-    "and released the forbidden texts from their unholy vaults."
-  `ENDNODE
-  
-  `NEW_NODE(INQUIRY_GOLEM, NUETRAL)
-    "Now their spite lingers in every ghastly demon that walks the realm.",
-    ""
-  `ENDNODE
-  
-  `NEW_NODE(INQUIRY_GOLEM, NUETRAL)
-    "Given this history, we are in no place",
-    "to wake the golems and face their judgement."
   `ENDNODE
   
   // ----------------------------------------------------------------------- //
@@ -259,8 +169,6 @@ defaultProperties
   end object
   npcSprites=NPC_Sprites
 }
-
-
 
 
 
