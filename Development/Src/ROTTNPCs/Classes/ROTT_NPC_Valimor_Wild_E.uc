@@ -26,13 +26,8 @@ public function initDialogue() {
   
   // Intro
   `NEW_NODE(GREETING, NUETRAL)
-    "A massive endeavor is like a beast.",
+    "Promises forgotten in the storm.",
     ""
-  `ENDNODE
-  
-  `NEW_NODE(GREETING, NUETRAL)
-    "Those born without richness in their lives",
-    "cannot afford domesticated beasts."
   `ENDNODE
   
     `ADD_OPTIONS(GREETING, NUETRAL)
