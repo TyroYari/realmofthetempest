@@ -26,8 +26,23 @@ public function initDialogue() {
   
   // Intro
   `NEW_NODE(GREETING, NUETRAL)
-    "The art of bringing consciousness to cognition",
-    "must be developed through suffering."
+    "The woods, the woods. . .",
+    ""
+  `ENDNODE
+  
+  `NEW_NODE(GREETING, NUETRAL)
+    "The woods are calling to our spirits.",
+    ""
+  `ENDNODE
+  
+  `NEW_NODE(GREETING, NUETRAL)
+    "So loudly, so loudly. . .",
+    ""
+  `ENDNODE
+	
+  `NEW_NODE(GREETING, NUETRAL)
+    "I saw the critters crawling across a dark rainbow",
+    "in the sky."
   `ENDNODE
   
   // ----------------------------------------------------------------------- //
@@ -56,7 +71,7 @@ defaultProperties
   
   // Background
   begin object class=UI_Texture_Info Name=NPC_Background_Texture
-    componentTextures.add(Texture2D'GUI_NPC_Dialog.NPC_Background_Dark_Gray'
+    componentTextures.add(Texture2D'GUI_NPC_Dialog.NPC_Background_Green'
   end object
   
   // Sprite container for transfer
@@ -68,7 +83,7 @@ defaultProperties
   
   // NPC Texture
   begin object class=UI_Texture_Info Name=NPC_Sprite_Texture
-    componentTextures.add(Texture2D'Monsters.Enemy_Portrait_Cyclops_Green_360')
+    componentTextures.add(Texture2D'NPCs.Witches.NPC_Portrait_Witch_Green_360')
   end object
   
   // Sprite container for transfer
