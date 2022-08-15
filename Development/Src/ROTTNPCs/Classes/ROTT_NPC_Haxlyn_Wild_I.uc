@@ -26,7 +26,7 @@ public function initDialogue() {
   
   // Intro
   `NEW_NODE(GREETING, NUETRAL)
-    "Do I hear the tempest, or do I hear an ocean?",
+    "Am I dreaming of a tempest?",
     ""
   `ENDNODE
   
