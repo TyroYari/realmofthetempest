@@ -26,8 +26,8 @@ public function initDialogue() {
   
   // Intro
   `NEW_NODE(GREETING, NUETRAL)
-    "Lovely evening, isn't it. . .",
-    ""
+    "A little salt here. . . Droplets of",
+    "amber resin there. . . That might work."
   `ENDNODE
   
     `ADD_OPTIONS(GREETING, NUETRAL)
