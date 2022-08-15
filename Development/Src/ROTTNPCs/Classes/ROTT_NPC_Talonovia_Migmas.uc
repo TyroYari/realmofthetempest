@@ -32,72 +32,59 @@ public function initDialogue() {
   setColor(DEFAULT_MEDIUM_GOLD);
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
-    "Hello young storm walker.",
+    "Hello and welcome.",
     ""
   `ENDNODE
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
-    "When thunder strikes I'll watch the wind raging",
-    "in the tempest, thrashing against itself."
+    "This is an alchemy shop here.",
+    ""
   `ENDNODE
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
-    "You're really not the type to believe alchemy works the same way,", 
-    "are you?" // lr1
-  `ENDNODE
-    
-    `ADD_OPTIONS(INTRODUCTION, NUETRAL)
-      "I don't do Alchemy",
-      "I'm a believer",
-      "",
-      ""
-    `ENDNODE
-    
-      `ADD_REPLY(INTRODUCTION, NUETRAL, 0)
-        "We do not always know what we need,",
-        "but I really believe in the power of alchemical services."
-      `ENDNODE
-    
-      `ADD_REPLY(INTRODUCTION, NUETRAL, 1)
-        "I'll push the alchemical craft to the limit",
-        "for a fellow believer."
-      `ENDNODE
-    
-    
-      `ADD_REPLY(INTRODUCTION, NUETRAL, 1)
-        "That is what I do.",
-        ""
-      `ENDNODE
-    
-  `NEW_NODE(INTRODUCTION, NUETRAL)
-    "I'm Migmas, the local alchemist,",
-    "member of the Talonovian high council."
+    "My name is Migmas the Great.",
+    ""
   `ENDNODE
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
-    "I do not always care for company, but I'll handle your",
-    "enchantment services for a fair price."
+    "I handle the enchantment of",
+    "special relics."
   `ENDNODE
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
-    "Through the portal of Rhunia, you'll find an obelisk",
-    "towering above the halls of an abandoned citadel." 
+    "These relics are holy,",
+    "and their powers sacred."
   `ENDNODE
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
-    "You can't read the psalms of Rhunia without", 
-    "awakening a lost magnificent power from within. . ."
+    "They are an essential part of survival",
+    "for a traveller."
   `ENDNODE
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
-    "So go forth to the shrine beneath this monument,", //rr2
-    "and let's see if you'll restore the power of that ancient stone."
+    "In the north, there is an obelisk,",
+    "abandoned, in need of help."
+  `ENDNODE
+  
+  `NEW_NODE(INTRODUCTION, NUETRAL)
+    "My magick is tied to the tower.",
+    ""
+  `ENDNODE
+  
+  `NEW_NODE(INTRODUCTION, NUETRAL)
+    "I will reward the revival of the tower",
+    "and help with your battles out there."
+  `ENDNODE
+  
+  `NEW_NODE(INTRODUCTION, NUETRAL)
+    "Stay golden champ.",
+    ""
   `ENDNODE
   
   // ----------------------------------------------------------------------- //
   
   `NEW_NODE(GREETING, NUETRAL)
-    "You don't need help, do you?",
+    "Stay golden champ.",
     ""
   `ENDNODE
   
@@ -119,59 +106,34 @@ public function initDialogue() {
   // ----------------------------------------------------------------------- //
   
   `NEW_NODE(INQUIRY_OBELISK, NUETRAL)
-    "Practicing alchemy helps to fortify and sustain Talonovia.",
+    "In the north, there is an obelisk,",
+    "abandoned, in need of help."
+  `ENDNODE
+  
+  `NEW_NODE(INQUIRY_OBELISK, NUETRAL)
+    "My magick is tied to the tower.",
     ""
   `ENDNODE
   
   `NEW_NODE(INQUIRY_OBELISK, NUETRAL)
-    "The aura exerted by the obelisk will empower these magicks.",
-    ""
-  `ENDNODE
-  
-  `NEW_NODE(INQUIRY_OBELISK, NUETRAL)
-    "So go forth, and give it a heartfelt prayer once again.",
-    ""
+    "I will reward the revival of the tower",
+    "and help with your battles out there."
   `ENDNODE
   
   // ----------------------------------------------------------------------- //
   
   `NEW_NODE(INQUIRY_TOMB, NUETRAL)
-    "The spiritual energy of the priestess buried in Haxlyn",
-    "will forever permeate the walls of her tomb."
-  `ENDNODE
-  
-  `NEW_NODE(INQUIRY_TOMB, NUETRAL)
-    "Only by feeding from her energy can",
-    "the Haxlyn blossoms flourish."
-  `ENDNODE
-  
-  `NEW_NODE(INQUIRY_TOMB, NUETRAL)
-    "Harvest these blossoms, and return them to us.",
+    ". . .",
     ""
   `ENDNODE
-  
-  `NEW_NODE(INQUIRY_TOMB, NUETRAL)
-    "The alchemical benefit is unparalleled,",
-    "and they will always grow back."
-  `ENDNODE
-  
+	
   // ----------------------------------------------------------------------- //
   
   `NEW_NODE(INQUIRY_GOLEM, NUETRAL)
-    "Little is known of the slumbering golems.",
+    ". . .",
     ""
   `ENDNODE
-  
-  `NEW_NODE(INQUIRY_GOLEM, NUETRAL)
-    "There is mention of them only in the holy text of The Agony Schema, and",
-    "the Half Moon Memoirs."
-  `ENDNODE
-  
-  `NEW_NODE(INQUIRY_GOLEM, NUETRAL)
-    "Are you not eager to witness their power?",
-    ""
-  `ENDNODE
-  
+	
   // ----------------------------------------------------------------------- //
   
   setInquiry(
@@ -226,6 +188,28 @@ defaultProperties
   end object
   npcSprites=NPC_Sprites
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
