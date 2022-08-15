@@ -26,8 +26,19 @@ public function initDialogue() {
   
   // Intro
   `NEW_NODE(GREETING, NUETRAL)
-    "I've seen the moon tremble.",
-    "Or perhaps it was my eye that shook."
+    "I've seen the lunar crescent trembling",
+    "in the skies."
+  `ENDNODE
+  
+  `NEW_NODE(GREETING, NUETRAL)
+    "The bird unfolds and flaps an ash coated",
+    "pair of heavy wings."
+  `ENDNODE
+	setColor(DEFAULT_MEDIUM_GOLD);
+  
+  `NEW_NODE(GREETING, NUETRAL)
+    "Or perhaps what shook had been",
+    "my frantic eyes."
   `ENDNODE
   
   // ----------------------------------------------------------------------- //
@@ -68,7 +79,7 @@ defaultProperties
   
   // NPC Texture
   begin object class=UI_Texture_Info Name=NPC_Sprite_Texture
-    componentTextures.add(Texture2D'Monsters.Enemy_Portrait_Cyclops_Red_Black_360')
+    componentTextures.add(Texture2D'Monsters_Disc_2.Enemy_Portrait_Ravager_Green_360')
   end object
   
   // Sprite container for transfer
