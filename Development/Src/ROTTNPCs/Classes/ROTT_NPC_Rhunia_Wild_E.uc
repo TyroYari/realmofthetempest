@@ -26,33 +26,7 @@ public function initDialogue() {
   
   // Intro
   `NEW_NODE(GREETING, NUETRAL)
-    "Dark haze surrounds an old saddened figure. . .",
-    ""
-  `ENDNODE
-  setColor(DEFAULT_MEDIUM_GOLD);
-  
-  `NEW_NODE(GREETING, NUETRAL)
-    "There is no place for me here in these woods.",
-    ""
-  `ENDNODE
-  
-  `NEW_NODE(GREETING, NUETRAL)
-    "But in my loneliness, I've been reminded that how \"different\" one feels",
-    "is a predetermined result. . ."
-  `ENDNODE
-  
-  `NEW_NODE(GREETING, NUETRAL)
-    ". . . from the ambition of your soul.",
-    ""
-  `ENDNODE
-  
-  `NEW_NODE(GREETING, NUETRAL)
-    "So even though lives like mine are not sustained here,",
-    "where the common evil thrives. . ."
-  `ENDNODE
-  
-  `NEW_NODE(GREETING, NUETRAL)
-    "I will one day rest. . . in heaven.",
+    "May those at the gate be free from the church.", 
     ""
   `ENDNODE
   
