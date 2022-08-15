@@ -26,49 +26,8 @@ public function initDialogue() {
   
   // Intro
   `NEW_NODE(GREETING, NUETRAL)
-    "The voice of a maddened ghoul alternates between religious chanting",
-    "and a crinkled whisper. . ."
-  `ENDNODE
-  setColor(DEFAULT_MEDIUM_GOLD);
-  
-  `NEW_NODE(GREETING, NUETRAL)
-    "It twists and it twists,",
-    ""
-  `ENDNODE
-  
-  `NEW_NODE(GREETING, NUETRAL)
-    "and I can't stop whispering.",
-    ""
-  `ENDNODE
-  
-  `NEW_NODE(GREETING, NUETRAL)
-    "A serpent fights its father,",
-    ""
-  `ENDNODE
-  
-  `NEW_NODE(GREETING, NUETRAL)
-    "and I can't stop whispering.",
-    ""
-  `ENDNODE
-  
-  `NEW_NODE(GREETING, NUETRAL)
-    "With dust in our wine soaked fists,",
-    ""
-  `ENDNODE
-  
-  `NEW_NODE(GREETING, NUETRAL)
-    "I can't stop whispering.",
-    ""
-  `ENDNODE
-  
-  `NEW_NODE(GREETING, NUETRAL)
-    "Please send help.",
-    ""
-  `ENDNODE
-  
-  `NEW_NODE(GREETING, NUETRAL)
-    "I can't stop whispering.",
-    ""
+    "It twists and it twists around our",
+    "little house."
   `ENDNODE
   
   // ----------------------------------------------------------------------- //
