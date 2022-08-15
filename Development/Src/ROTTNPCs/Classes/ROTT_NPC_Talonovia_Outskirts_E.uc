@@ -26,15 +26,16 @@ public function initDialogue() {
   
   // Greeting
   `NEW_NODE(GREETING, NUETRAL)
-    "My pastiches. . . My pastiches. . .",
-    ""
+    "In a cluttered room, a witch",
+    "shuffles through stacks of paper work."
   `ENDNODE
-  
+  setColor(DEFAULT_MEDIUM_GOLD);
+	
   `NEW_NODE(GREETING, NUETRAL)
-    "Have I lost my pastiches?",
+    "Nothing really matters.",
     ""
   `ENDNODE
-  
+	
   // ----------------------------------------------------------------------- //
   
   setInquiry(
