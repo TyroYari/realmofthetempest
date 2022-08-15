@@ -40,46 +40,51 @@ public function initDialogue() {
   
   // Intro
   `NEW_NODE(INTRODUCTION, NUETRAL)
-    "Tannim the dragon tamer is dangling a smoking thurible",
-    "over a pet gargoyle. . ."
+    "Tannim the Dragon Tamer is dangling a smoking thurible by",
+    "a pet gargoyle. . ."
   `ENDNODE
   setColor(DEFAULT_MEDIUM_GOLD);
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
-    "Are you the new face in town?",
+    "Are you the new face",
+    "around the docks?"
+  `ENDNODE
+  
+  `NEW_NODE(INTRODUCTION, NUETRAL)
+    "I am the keeper of beasts and demons, Tannim.",
     ""
   `ENDNODE
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
-    "I am Tannim, keeper of beasts and demons,",
-    "at your service."
+    "Are you ok?",
+    "Coming to the harbor can be rough."
   `ENDNODE
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
-    "You all right?",
-    "First day at the harbor can be rough."
+    "Listen. . .",
+    ""
   `ENDNODE
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
-    "Since you have the eyes of a young wanderer,",
-    "I'll have to ask that you tread carefully around the Obelisk of Rhunia."
+    "The high council is nothing",
+    "but petty arguments here lately."
   `ENDNODE
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
-    "Ever since \"the black magic tragedy\", the Talonovian high council",
-    "has been in nothing but petty disagreements."
+    "The Black Magic Tragedy was a recent disaster",
+    "for our entire realm, and we are still recovering."
   `ENDNODE
   
   `NEW_NODE(INTRODUCTION, NUETRAL)
-    "I really don't care for arguments.  The solution is simple.",
-    "Just leave Rhunia's obelisk alone."
+    "None of us agree, but I say we ought not worship",
+    "the forsaken obelisk monument."
   `ENDNODE
   
   // ----------------------------------------------------------------------- //
   
   `NEW_NODE(GREETING, NUETRAL)
-    "You're in good hands, friend.",
-    "How may I help you?"
+    "Nothing whispered is sacred.",
+    ""
   `ENDNODE
   
     `ADD_OPTIONS(GREETING, NUETRAL)
@@ -100,77 +105,22 @@ public function initDialogue() {
   // ----------------------------------------------------------------------- //
   
   `NEW_NODE(INQUIRY_OBELISK, NUETRAL)
-    "This towering monument howls when fed religious psalms,",
-    "warding away the unclean, and the damned."
+    "None of us agree, but I say we ought not worship",
+    "the forsaken obelisk monument."
   `ENDNODE
+	
+  // ----------------------------------------------------------------------- //
   
-  `NEW_NODE(INQUIRY_OBELISK, NUETRAL)
-    "Tremors shake through their bones, while high ringing screeches",
-    "chip away at our hearts, hands, and souls."
-  `ENDNODE
-  
-  `NEW_NODE(INQUIRY_OBELISK, NUETRAL)
-    "Taming demons and beasts is my purpose here.",
-    ""
-  `ENDNODE
-  
-  `NEW_NODE(INQUIRY_OBELISK, NUETRAL)
-    "The howling of an ancient pillar's ward is no help to me.",
+  `NEW_NODE(INQUIRY_TOMB, NUETRAL)
+    ". . .",
     ""
   `ENDNODE
   
   // ----------------------------------------------------------------------- //
   
-  `NEW_NODE(INQUIRY_TOMB, NUETRAL)
-    "The backbone of physical strength is training.",
+  `NEW_NODE(INQUIRY_GOLEM, NUETRAL)
+    ". . .",
     ""
-  `ENDNODE
-  
-  `NEW_NODE(INQUIRY_TOMB, NUETRAL)
-    "Champions of light come here in search of combat experience,",
-    "against the God-like dwellers of the underworld."
-  `ENDNODE
-  
-  `NEW_NODE(INQUIRY_TOMB, NUETRAL)
-    "Quite the daunting duty, isn't it?  Having to heal the wounds",
-    "of these monstrous giants after each skirmish."
-  `ENDNODE
-  
-  `NEW_NODE(INQUIRY_TOMB, NUETRAL)
-    "Yet hope exist, nearly within reach.",
-    ""
-  `ENDNODE
-  
-  `NEW_NODE(INQUIRY_TOMB, NUETRAL)
-    "The tomb of the Haxlyn priestess hosts",
-    "a plethora of holy blossoms, imbued with restorative magick."
-  `ENDNODE
-  
-  `NEW_NODE(INQUIRY_TOMB, NUETRAL)
-    "Collecting petals from around Haxlyn's tomb",
-    "may bring the regeneration required to train against them."
-  `ENDNODE
-  
-  // ----------------------------------------------------------------------- //
-  
-  `NEW_NODE(INQUIRY_GOLEM, NUETRAL)
-    "When we fail to fathom the size of a beast,",
-    "that is when facing it rewards us most."
-  `ENDNODE
-  
-  `NEW_NODE(INQUIRY_GOLEM, NUETRAL)
-    "Nobody will die under the chains of cowardice,",
-    "not in my company, young wanderer."
-  `ENDNODE
-  
-  `NEW_NODE(INQUIRY_GOLEM, NUETRAL)
-    "So be brave in this endeavor. . .",
-    "Face the slumbering ones wide-eyed."
-  `ENDNODE
-  
-  `NEW_NODE(INQUIRY_GOLEM, NUETRAL)
-    "Now think. . .",
-    "When you wake ancient golems, will they wake you too?"
   `ENDNODE
   
   // ----------------------------------------------------------------------- //
@@ -227,5 +177,12 @@ defaultProperties
   end object
   npcSprites=NPC_Sprites
 }
+
+
+
+
+
+
+
 
 
