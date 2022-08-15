@@ -26,8 +26,18 @@ public function initDialogue() {
   
   // Greeting
   `NEW_NODE(GREETING, NUETRAL)
-    "I'm an arcane spectrologist, specializing in polymorphic magicka",
-    "and stratosphying nether ciphers."
+    "When I came to this Kingdom. . .",
+    ""
+  `ENDNODE
+  
+  `NEW_NODE(GREETING, NUETRAL)
+    "It had a 900 year history of holy",
+    "prosperity from the work of Gods."
+  `ENDNODE
+  
+  `NEW_NODE(GREETING, NUETRAL)
+    "Then Dominus fell from the",
+    "Ethereal Stream."
   `ENDNODE
   
   // ----------------------------------------------------------------------- //
