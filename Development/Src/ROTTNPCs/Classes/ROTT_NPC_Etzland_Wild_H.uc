@@ -26,8 +26,14 @@ public function initDialogue() {
   
   // Intro
   `NEW_NODE(GREETING, NUETRAL)
-    "I. . . I can't see when my eyes are open,",
-    "but I can see while they're closed."
+    "I see not when my eyes open",
+    "toward the day."
+  `ENDNODE
+  
+  // Intro
+  `NEW_NODE(GREETING, NUETRAL)
+    "But I'll see when they close,",
+    "on a long dark road."
   `ENDNODE
   
   // ----------------------------------------------------------------------- //
@@ -56,7 +62,7 @@ defaultProperties
   
   // Background
   begin object class=UI_Texture_Info Name=NPC_Background_Texture
-    componentTextures.add(Texture2D'GUI_NPC_Dialog.NPC_Background_Dark_Gray'
+    componentTextures.add(Texture2D'GUI_NPC_Dialog.NPC_Background_Green'
   end object
   
   // Sprite container for transfer
