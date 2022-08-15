@@ -26,7 +26,7 @@ public function initDialogue() {
   
   // Intro
   `NEW_NODE(GREETING, NUETRAL)
-    "Hear the forest hums to you.",
+    "The forest hums to you here.",
     ""
   `ENDNODE
   
