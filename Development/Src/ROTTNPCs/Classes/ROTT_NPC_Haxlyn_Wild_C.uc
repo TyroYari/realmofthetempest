@@ -32,8 +32,19 @@ public function initDialogue() {
   setColor(DEFAULT_MEDIUM_GOLD);
   
   `NEW_NODE(GREETING, NUETRAL)
-    "There is an evil that knows and loves us. . .",
-    "Much more than you may ever know or love yourself!"
+    "There is an evil that knows and loves us more than",
+    "dreamers may ever concieve."
+  `ENDNODE
+  
+  `NEW_NODE(GREETING, NUETRAL)
+    "The witch's cauldron roars furiously.",
+    ""
+  `ENDNODE
+  setColor(DEFAULT_MEDIUM_GOLD);
+  
+  `NEW_NODE(GREETING, NUETRAL)
+    "The ethereal stream never wavers.",
+    ""
   `ENDNODE
   
   // ----------------------------------------------------------------------- //
@@ -62,7 +73,7 @@ defaultProperties
   
   // Background
   begin object class=UI_Texture_Info Name=NPC_Background_Texture
-    componentTextures.add(Texture2D'GUI_NPC_Dialog.NPC_Background_Dark_Gray'
+    componentTextures.add(Texture2D'GUI_NPC_Dialog.NPC_Background_Blue'
   end object
   
   // Sprite container for transfer
@@ -74,7 +85,7 @@ defaultProperties
   
   // NPC Texture
   begin object class=UI_Texture_Info Name=NPC_Sprite_Texture
-    componentTextures.add(Texture2D'NPCs.Witches.NPC_Portrait_Witch_Black_360')
+    componentTextures.add(Texture2D'NPCs.Witches.NPC_Portrait_Witch_Blue_360')
   end object
   
   // Sprite container for transfer
