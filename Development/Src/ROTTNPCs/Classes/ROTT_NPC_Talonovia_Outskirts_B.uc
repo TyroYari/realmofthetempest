@@ -26,28 +26,14 @@ public function initDialogue() {
   
   // Greeting
   `NEW_NODE(GREETING, NUETRAL)
-    "This is. . . A schism type of world. . .",
-    "Isn't it?"
+    "The mechanical being barely moves as",
+    "metal gadgets whistle, hiss, and turn slow."
   `ENDNODE
+  setColor(DEFAULT_MEDIUM_GOLD);
   
   `NEW_NODE(GREETING, NUETRAL)
-    "When I map scythes holy movement. . .",
-    "Then What?"
-  `ENDNODE
-  
-  `NEW_NODE(GREETING, NUETRAL)
-    "Cut, slice, separate, divide. . .",
-    ""
-  `ENDNODE
-  
-  `NEW_NODE(GREETING, NUETRAL)
-    "Bring them back together again. . .",
-    ""
-  `ENDNODE
-  
-  `NEW_NODE(GREETING, NUETRAL)
-    "Huh. . .",
-    ""
+    "The petals in a rose are like",
+    "the path of these twisted roads."
   `ENDNODE
   
   // ----------------------------------------------------------------------- //
