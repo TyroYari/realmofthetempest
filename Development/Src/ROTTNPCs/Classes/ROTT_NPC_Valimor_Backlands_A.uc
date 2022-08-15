@@ -26,7 +26,7 @@ public function initDialogue() {
   
   // Intro
   `NEW_NODE(GREETING, NUETRAL)
-    "We deal in darkness, don't we?",
+    "Promises forgotten in the storm. . .",
     ""
   `ENDNODE
   
