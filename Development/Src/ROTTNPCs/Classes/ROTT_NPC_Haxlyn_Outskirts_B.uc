@@ -26,7 +26,7 @@ public function initDialogue() {
   
   // Intro
   `NEW_NODE(GREETING, NUETRAL)
-    "Results over ideals.",
+    "Little dreams start with a few loyal pals.",
     ""
   `ENDNODE
   
