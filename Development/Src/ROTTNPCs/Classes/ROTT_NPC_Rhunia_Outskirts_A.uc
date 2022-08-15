@@ -26,7 +26,7 @@ public function initDialogue() {
   
   // Intro
   `NEW_NODE(GREETING, NUETRAL)
-    "You did not get lost, did you?",
+    "Are you lost or exploring?",
     ""
   `ENDNODE
   
