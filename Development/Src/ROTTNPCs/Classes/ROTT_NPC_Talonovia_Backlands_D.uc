@@ -26,20 +26,16 @@ public function initDialogue() {
   
   // Greeting
   `NEW_NODE(GREETING, NUETRAL)
-    "Three types of magic exist.",
+    "A boy is reading in the dark.",
     ""
   `ENDNODE
-  
+  setColor(DEFAULT_MEDIUM_GOLD);
+	
   `NEW_NODE(GREETING, NUETRAL)
-    "Blood magic, from the world within. . .",
-    "Nether magic, from the world below. . ."
-  `ENDNODE
-  
-  `NEW_NODE(GREETING, NUETRAL)
-    "And moon magic, from the world beyond.",
+    ". . .",
     ""
   `ENDNODE
-  
+	
   // ----------------------------------------------------------------------- //
   
   setInquiry(
@@ -78,7 +74,7 @@ defaultProperties
   
   // NPC Texture
   begin object class=UI_Texture_Info Name=NPC_Sprite_Texture
-    componentTextures.add(Texture2D'NPCs.Necromancers.NPC_Portrait_Necromancer_White_360')
+    componentTextures.add(Texture2D'NPCs.Princes.NPC_Portrait_Prince_Blue_360')
   end object
   
   // Sprite container for transfer
