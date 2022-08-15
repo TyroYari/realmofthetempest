@@ -26,24 +26,30 @@ public function initDialogue() {
   
   // Intro
   `NEW_NODE(GREETING, NUETRAL)
-    "A bone collecter is muttering while scanning the floor. . .",
-    ""
+    "A bone collector mutters while scanning",
+    "the mess on the floor."
   `ENDNODE
   setColor(DEFAULT_MEDIUM_GOLD);
   
   `NEW_NODE(GREETING, NUETRAL)
-    "If I lay down with my arms out,",
-    "they will tell me what to do."
+    "When I've laid down with my arms",
+    "out, they'll shout at us to go." 
   `ENDNODE
   
   `NEW_NODE(GREETING, NUETRAL)
-    "If I lay down with my palms up. . .",
-    ""
+    "When I've laid down with my palms up,",
+    "the fever's all I show." 
   `ENDNODE
   
   `NEW_NODE(GREETING, NUETRAL)
-    "They will come for me and you.",
-    ""
+    "The bone collector looks for an empty spot",
+    "in the clutter of thick ivory remains." 
+  `ENDNODE
+  setColor(DEFAULT_MEDIUM_GOLD);
+  
+  `NEW_NODE(GREETING, NUETRAL)
+    "But there is no more room",
+    "in my dark house." 
   `ENDNODE
   
   // ----------------------------------------------------------------------- //
@@ -72,7 +78,7 @@ defaultProperties
   
   // Background
   begin object class=UI_Texture_Info Name=NPC_Background_Texture
-    componentTextures.add(Texture2D'GUI_NPC_Dialog.NPC_Background_Dark_Gray'
+    componentTextures.add(Texture2D'GUI_NPC_Dialog.NPC_Background_Blue'
   end object
   
   // Sprite container for transfer
@@ -84,7 +90,7 @@ defaultProperties
   
   // NPC Texture
   begin object class=UI_Texture_Info Name=NPC_Sprite_Texture
-    componentTextures.add(Texture2D'Monsters.Enemy_Portrait_Harshoax_Black_360')
+    componentTextures.add(Texture2D'Monsters.Enemy_Portrait_Harshoax_Blue_360')
   end object
   
   // Sprite container for transfer
