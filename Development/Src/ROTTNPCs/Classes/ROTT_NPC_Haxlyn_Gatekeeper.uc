@@ -27,12 +27,12 @@ public function initDialogue() {
   // Greeting
   `NEW_NODE(GREETING, NUETRAL)
     "May our faith lay eternal with the blind mother",
-    "of the ethereal stream."
+    "of this ethereal stream."
   `ENDNODE
   
   `NEW_NODE(GREETING, NUETRAL)
     "It is in the chaos of the universe that we discover",
-    "who we are."
+    "who we must be."
   `ENDNODE
   
   `NEW_NODE(GREETING, NUETRAL)
@@ -46,7 +46,7 @@ public function initDialogue() {
   `ENDNODE
   
   `NEW_NODE(GREETING, NUETRAL)
-    "Show my true shape to me!",
+    "Show my holy form to me.",
     ""
   `ENDNODE
   
