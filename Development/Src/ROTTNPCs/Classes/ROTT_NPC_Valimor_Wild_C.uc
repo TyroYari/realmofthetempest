@@ -26,8 +26,8 @@ public function initDialogue() {
   
   // Intro
   `NEW_NODE(GREETING, NUETRAL)
-    "Our wardens waiting.  Forever mending. . .",
-    "Mental ailments."
+    ". . .",
+    ""
   `ENDNODE
   
   // ----------------------------------------------------------------------- //
