@@ -26,10 +26,10 @@ public function initDialogue() {
   
   // Intro
   `NEW_NODE(GREETING, NUETRAL)
-    "Feel free to spit in my house.",
+    ". . .",
     ""
   `ENDNODE
-  
+	
   // ----------------------------------------------------------------------- //
   
   setInquiry(
@@ -68,7 +68,7 @@ defaultProperties
   
   // NPC Texture
   begin object class=UI_Texture_Info Name=NPC_Sprite_Texture
-    componentTextures.add(Texture2D'Monsters_Disc_2.Enemy_Portrait_Zombie_Purple_360')
+    componentTextures.add(Texture2D'NPCs.Witches.NPC_Portrait_Witch_Violet_360')
   end object
   
   // Sprite container for transfer
