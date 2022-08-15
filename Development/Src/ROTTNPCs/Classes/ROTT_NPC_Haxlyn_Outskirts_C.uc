@@ -26,8 +26,8 @@ public function initDialogue() {
   
   // Intro
   `NEW_NODE(GREETING, NUETRAL)
-    "Eyes to the texts.",
-    ""
+    "Eyes to the scriptures,",
+    "ears to the whispers, dreamer."
   `ENDNODE
   
     `ADD_OPTIONS(GREETING, NUETRAL)
