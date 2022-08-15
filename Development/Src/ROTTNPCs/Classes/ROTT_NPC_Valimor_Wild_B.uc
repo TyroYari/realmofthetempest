@@ -24,43 +24,16 @@ class ROTT_NPC_Valimor_Wild_B extends ROTT_NPC_Container;
 public function initDialogue() {
   super.initDialogue();
   
-  /// https://www.youtube.com/watch?v=IxECpwmIEWQ
-  
   // Intro
   `NEW_NODE(GREETING, NUETRAL)
-    "An old sage is vigilantly scouring through forbidden texts. . .",
-    ""
+    "An old sage scours through",
+    "a forbidden library of texts here."
   `ENDNODE
   setColor(DEFAULT_MEDIUM_GOLD);
   
   `NEW_NODE(GREETING, NUETRAL)
-    "Integrate our backward lever. . .",
-    ""
-  `ENDNODE
-  
-  `NEW_NODE(GREETING, NUETRAL)
-    "Uhh. . .",
-    ""
-  `ENDNODE
-  
-  `NEW_NODE(GREETING, NUETRAL)
-    "Know a backward era starts with. . . death. . .",
-    ""
-  `ENDNODE
-  
-  `NEW_NODE(GREETING, NUETRAL)
-    "Hm. . .",
-    ""
-  `ENDNODE
-  
-  `NEW_NODE(GREETING, NUETRAL)
-    "Holy spirits melting. . .",
-    "Hideous citadels. . . Solemn temples. . ."
-  `ENDNODE
-  
-  `NEW_NODE(GREETING, NUETRAL)
-    "Our dreams are slayed on. . . What a leap. . .",
-    "What a leap. . ."
+    "When the petals rise from the ground, that's nether", 
+    "magic escaping from the core of the ethereal stream."
   `ENDNODE
   
   // ----------------------------------------------------------------------- //
