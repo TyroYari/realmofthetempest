@@ -26,7 +26,22 @@ public function initDialogue() {
   
   // Intro
   `NEW_NODE(GREETING, NUETRAL)
-    "Do not disturb my sewing kit.",
+    "Where are your sult dealers?",
+    ""
+  `ENDNODE
+  
+  `NEW_NODE(GREETING, NUETRAL)
+    "We sit around with two little bags of",
+    "thin sult dust and no dealers."
+  `ENDNODE
+  
+  `NEW_NODE(GREETING, NUETRAL)
+    "We made no profit chopping trees around here.",
+    ""
+  `ENDNODE
+  
+  `NEW_NODE(GREETING, NUETRAL)
+    "To hell with this nonsense.",
     ""
   `ENDNODE
   
@@ -68,7 +83,7 @@ defaultProperties
   
   // NPC Texture
   begin object class=UI_Texture_Info Name=NPC_Sprite_Texture
-    componentTextures.add(Texture2D'Monsters_Disc_2.Enemy_Portrait_Scourge_Black_360')
+    componentTextures.add(Texture2D'Monsters.Enemy_Portrait_Lycanthrox_Purple_360')
   end object
   
   // Sprite container for transfer
